@@ -1,0 +1,80 @@
+body {
+    background-color: white;
+    font-family     : 'Times New Roman', Times, serif;
+    font-size       : 16px;
+}
+
+article {
+    border          : 0.5px solid rgb(112, 112, 112);
+    border-radius   : 20px;
+    background-color: rgb(252, 252, 252);
+    margin          : 5px 200px 50px;
+    padding         : 0 30px 50px 100px;
+}
+
+.graduates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.graduates>img+h3 {
+    display  : inline-block;
+    font-size: 30px;
+    padding  : 20px -10px;
+}
+
+div.graduates>img {
+    width        : 30px;
+    padding-right: 10px;
+}
+
+img+p {
+    width  : 300px;
+    padding: 5px;
+}
+
+figure {
+    position: relative;
+    float   : right;
+    width   : 300px;
+}
+
+mark {
+    background-color: rgba(247, 247, 247, 0.808);
+}
+
+figcaption {
+    padding-top: 14px;
+    float      : right;
+}
+
+div:nth-child(n+2) img {
+    border-radius: 100%;
+    border       : 0.5px solid lightgray;
+}
+
+figure div:first-child {
+    font-size  : 40px;
+    position   : absolute;
+    left       : -40px;
+    top        : -25px;
+    font-style : italic;
+    font-weight: bold;
+    color      : lightgrey;
+}
+
+figure div:last-child {
+    font-size  : 40px;
+    padding-top: 20px;
+    position   : absolute;
+    left       : 315px;
+    font-style : italic;
+    font-weight: bold;
+    color      : lightgrey;
+}
+
+.graduate {
+    display: flex;
+    justify-content: center;
+}
