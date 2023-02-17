@@ -1,0 +1,26 @@
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+li {
+    list-style-type: none;
+    border: 2px solid #B0C7D8;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li:hover, li:hover > a {
+    cursor: pointer;
+    background: #607780;
+    color: white;
+}
+
+a {
+    color: #877160;
+}

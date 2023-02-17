@@ -1,0 +1,105 @@
+fieldset {
+    width: 500px;
+    background: #eeeeee;
+    border: 2px solid #b6b6b6;
+}
+
+fieldset > div {
+    float: right;
+    margin-right: 115px;
+}
+
+fieldset > div:nth-of-type(1) > label > input,
+fieldset > div:nth-of-type(4) > label > input,
+fieldset > div:nth-of-type(5) > label > input {
+    background: #feffb3;
+    border: 2px solid #b7bd58;
+}
+
+fieldset > div:nth-of-type(2) > label > input,
+fieldset > div:nth-of-type(3) > label > input {
+    background: #fac2e8;
+    border: 2px solid #86416a;
+}
+
+fieldset > div > label > select {
+    background: #bab5ff;
+    border: 2px solid #443a84;
+}
+
+fieldset > div > label + textarea {
+    background: #c5ffc5;
+    border: 2px solid #4b9149;
+}
+
+button {
+    border: none;
+}
+
+button:hover, label:hover {
+    cursor: pointer;
+}
+
+button:nth-of-type(1) {
+    background: #b6efb2;
+}
+
+button:nth-of-type(2) {
+    background: #e6959d;
+}
+
+div:nth-of-type(6) {
+    margin-right: 175px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input:not([type="radio"], [type="checkbox"]) {
+    width: 13.5rem;
+    height: 1.5rem;
+}
+
+select {
+    width: 13.8rem;
+    height: 2rem;
+}
+
+
+textarea {
+    height: 80px;
+    width: 13.4rem;
+}
+
+div {
+    margin: 2px;
+}
+
+div:nth-of-type(9) {
+    margin: 0;
+}
+
+div > div {
+    float: left;
+    padding: 0;
+    margin: 0;
+    padding-left: 160px;
+}
+
+div:nth-of-type(8) > label {
+    vertical-align: 40px;
+}
+
+div:nth-of-type(9) > label {
+    margin: -291px;
+    vertical-align: -19px;
+}
+
+div:nth-last-of-type(1) {
+    margin-right: 140px;
+}
+
+div > div:nth-of-type(2) > input {
+    box-shadow: 2px 2px 0 0 #b1ffff, -2px -2px 0 0 #b1ffff;
+}
