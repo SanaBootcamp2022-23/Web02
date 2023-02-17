@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/form.css">
+    <title>form</title>
+</head>
+<body>
+    <div>
+        <form method="post" action="">
+    
+            <label>E-mail:
+                <input type="email" name="email"><br>
+            </label>
+    
+            <label>Пароль:
+                <input type="password" name="password"><br>
+            </label>
+    
+            <label>Пароль еще раз:
+                <input type="password" name="passagain"><br>
+            </label>
+    
+            <label>Имя:
+                <input type="text" name="name"><br>
+            </label>
+    
+            <label>Фамилия:
+                <input type="text" name="secondname"><br>
+            </label>
+    
+            <label>
+                <p>Пол:
+                    <input type="radio" name="gender" value="male"> Мужской
+                    <input type="radio" name="gender" value="female"> Женский</p>
+            </label>
+    
+            <label> Город:
+                <select name="city">
+                    <option  selected value="Korosten">Житомир</option>
+                    <option value="Kyiv">Киев</option>
+                    <option value="Odessa">Одесса</option>
+                    <option value="Rivne">Ровно</option>
+                    <option value="Lviv">Львов</option>
+                </select>
+            </label> <br>
+    
+            <label>
+                О себе: <textarea name="Info"></textarea>
+            </label> <br>
+    
+            <fieldset>
+                <label>
+                    <span> <input type="checkbox" value="spam+" name="spaming"> Получать рассылки сайта <br></span>
+                    Соглашение: <input type="checkbox" value="duh+" name="rules"> Соглашаюсь с правилами сайта <br>
+                    <span> <input type="checkbox" value="unvisible" name="unvisibleprof"> Скрыть профиль на сайте <br></span>
+                </label>
+    
+                <input type="submit" value="Зарегестрироватся" name="regg">
+                <input type="reset" value="Сброс" name="cleen">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
