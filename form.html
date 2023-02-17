@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <div>
+    <table>
+        <tr>
+            <td><label for="Email">E-mail</label></td>
+            <td><input id="Email" type="email" placeholder="E-mail"></td>
+        </tr>
+        <tr>
+            <td> <label for="Pass">Пароль:</label></td>
+            <td><input id="Pass" type="password" placeholder="********"> </td>
+        </tr>
+        <tr>
+            <td><label for="Pass2">Пароль ще раз:</label></td>
+            <td><input id="Pass2" type="password" placeholder="********"> </td>
+        </tr>
+        <tr>
+            <td><label for="name">Ім`я:</label></td>
+            <td><input id="name" placeholder="Name" type="text"></td>
+        </tr>
+        <tr>
+            <td><label for="surname">Призвіще:</label></td>
+            <td><input id="surname" placeholder="Surname" type="text"></td>
+        </tr>
+        <tr>
+            <td><label>Стать:</label></td>
+            <td>
+                <input name="sex" type="radio" id="male">
+                <label for="male">Чоловік</label>
+                <input name="sex"type="radio" id="female">
+                <label for="female">Жінка</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Місто:</label></td>
+            <td>
+                <select>
+                    <option>Житомир</option>
+                    <option>Вінниця</option>
+                    <option>Київ</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Про себе:</label></td>
+            <td><textarea class="textArea"></textarea></td>
+        </tr>
+        <tr>
+            <td rowspan="4"><label>Згода:</label></td>
+            <td><input type="checkbox" name="permits" id="mail">
+                <label for="mail">Отримувати розсилку</label></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="permits" id="rules">
+            <label for="rules">Згоден з правилами серсісу</label></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="permits" id="hideProfile">
+            <label for="hideProfile">Приховати профіль на сайті</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+                <div>
+                    <input type="submit" value="Зареєструватися">
+                    <input type="reset" value="Скинути">
+                </div>
+
+            </td>
+
+        </tr>
+
+
+
+    </table>
+    </div>
+
+</form>
+</body>
+</html>
