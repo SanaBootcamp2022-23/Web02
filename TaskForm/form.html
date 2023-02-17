@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Реалізація форми</title>
+    <link rel="stylesheet" href="formStyle.css">
+</head>
+<body>
+<form action="">
+    <fieldset>
+        <div>
+            <label>E-mail:
+                <input type="text" value="admin">
+            </label>
+        </div>
+        <div>
+            <label>Пароль:
+                <input type="password" value="111">
+            </label>
+        </div>
+        <div>
+            <label>Пароль eще раз:
+                <input type="password" value="111">
+            </label>
+        </div>
+        <div>
+            <label>Имя:
+                <input type="text">
+            </label>
+        </div>
+        <div>
+            <label>Фамилия:
+                <input type="text">
+            </label>
+        </div>
+        <div>
+            <label for="m">Пол:</label>
+            <input type="radio" name="fm" checked id="m">мужской
+            <input type="radio" name="fm">женский
+        </div>
+        <div>
+            <label>Город:
+                <select>
+                    <option>Житомир</option>
+                    <option>Бердичев</option>
+                    <option>Киев</option>
+                </select>
+            </label>
+        </div>
+        <div>
+            <label for="text">О себе:</label>
+            <textarea id="text"></textarea>
+        </div>
+        <div>
+            <div><input type="checkbox" id="check1">Получать рассылки сайту</div>
+            <label for="check1">Соглашения:</label>
+            <div><input type="checkbox">Соглашаюсь с правилами сайта</div>
+            <div><input type="checkbox">Скрыть профиль на сайте</div>
+        </div>
+        <div>
+            <button type="submit">Зарегистрироваться</button>
+            <button type="reset">Сброс</button>
+        </div>
+    </fieldset>
+</form>
+</body>
+</html>

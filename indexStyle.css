@@ -1,0 +1,26 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+}
+
+li {
+    list-style-type: none;
+    padding: 15px;
+    border: 2px solid #4b22b24f;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #520f37;
+
+}
+
+li:hover, li:hover > a {
+    cursor: pointer;
+    background: #8e8d91;
+    color: white;
+}
