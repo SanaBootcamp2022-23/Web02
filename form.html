@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css" />
+</head>
+
+<body>
+    <div class="container">
+        <fieldset>
+            <table>
+                <form method="post">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="email">E-mail:</label>
+                            </td>
+                            <td><input type="email" name="email" id="email" required placeholder="admin" size="25"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="password">Введіть пароль:</label>
+                            </td>
+                            <td>
+                                <input type="password" name="password" id="password" required
+                                    placeholder="Введіть не меньше 6 символів..." size="25">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="repeatpassword">Повторіть пароль:</label>
+                            </td>
+                            <td>
+                                <input type="password" name="repeat_password" id="repeatpassword" required
+                                    placeholder="Повторіть пароль..." size="25">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="name">Ім'я:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="name" id="name" required size="25" placeholder="Введіть ім'я:">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="surname">Прізвище:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="surname" id="surname" required size="25"
+                                    placeholder="Введіть прізвище:">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="sex">Стать:</label>
+                            </td>
+                            <td>
+                                <input type="radio" name="sex" id="man" required>
+                                <label for="man">Чоловік</label>
+                                <input type="radio" name="sex" id="woman" required>
+                                <label for="woman">Жінка</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="city">Місто:</label>
+                            </td>
+                            <td>
+                                <select name="city" id="city">
+                                    <option value="Zhytomyr">Житомир</option>
+                                    <option value="Kyiv">Київ</option>
+                                    <option value="Kharkiv">Харків</option>
+                                    <option value="Chernigiv">Чернігів</option>
+                                    <option value="Odesa">Одеса</option>
+                                    <option value="Kriviy_Rig">Кривий Ріг</option>
+                                    <option value="Lviv">Львів</option>
+                                    <option value="Rivne">Рівне</option>
+                                    <option value="Ivano_Frankivsk">Івано-Франківськ</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="about_yourself">Про себе:</label>
+                            </td>
+                            <td>
+                                <textarea name="about_yourself" id="about_yourself" cols="24" rows="8"
+                                    placeholder="Декілька слів про себе:"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">
+                                <label for="argeements">Згоди користувача:</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="agreements" id="mailing">
+                                <label for="mailing">Отримувати розсилки з сайту.</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="agreements" id="cite_agreements">
+                                <label for="cite_agreements">Згоден з правилами сайту.</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="agreements" id="hide_profile">
+                                <label for="hide_profile">Сховати профіль на сайті.</label>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="submit" value="Зареєструватися">
+                                <input type="button" value="Скидання">
+                            </td>
+                        </tr>
+                    </tfoot>
+                </form>
+            </table>
+        </fieldset>
+    </div>
+</body>
+
+</html>
