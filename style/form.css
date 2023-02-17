@@ -1,0 +1,46 @@
+table{
+    border: 2px solid gray;
+    background-color: darkgrey;
+    font-weight: bold;
+    margin: 0 auto;
+}
+tr td{
+    text-align: right;
+    width: 110px;
+}
+td + td{
+    text-align: left;
+    width: 300px;
+    font-weight: normal;
+}
+[type="text"], [type="password"], [type="email"]{
+    width: 270px;
+    height: 30px;
+}
+[type="text"], [type="email"]{
+    border: 2px solid #a98815;
+    background-color: #fff196;
+}
+[type="password"]{
+    border: 2px solid purple;
+    background-color: #fea8ff;
+}
+select{
+    border: 2px solid blue;
+    background-color: #b0b3ff;
+    width: 277px;
+    height: 30px;
+}
+textarea{
+    width: 270px;
+    height: 100px;
+    resize: none;
+    border: 2px solid green;
+    background-color: #a3ff96;
+}
+button{
+    background-color: #a3ff96;
+}
+button + button{
+    background-color: #ff7384;
+}
