@@ -1,0 +1,113 @@
+.nav{
+    display: flex;
+    list-style: none;
+
+}
+
+li#liMain
+{
+
+    margin-right: 20px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #B0C7D8;
+    border-radius: 5px ;
+}
+li#liMain:hover
+{
+    background-color: #607788;
+    color:white;
+}
+
+li>a#main:hover{
+    color:white;
+}
+
+li>a#main
+{
+    text-decoration: none;
+    color: #877160;
+}
+
+
+li#liHistory
+{
+    margin-right: 20px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #B0C7D8;
+    border-radius: 5px ;
+}
+li#liHistory:hover
+{
+    background-color: #607788;
+
+}
+
+li>a#history:hover{
+    color:white;
+}
+
+li>a#history
+{
+    text-decoration: none;
+    color: #877160;
+}
+
+
+
+li#liAbout
+{
+    margin-right: 20px;
+    padding-top: 20px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #B0C7D8;
+    border-radius: 5px ;
+}
+li#liAbout:hover
+{
+    background-color: #607788;
+
+}
+
+li>a#aboutUs:hover{
+    color:white;
+}
+
+li>a#aboutUs
+{
+    text-decoration: none;
+    color: #877160;
+}
+
+
+li#liContacts
+{
+    padding-top: 20px;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border: 1px solid #B0C7D8;
+    border-radius: 5px ;
+}
+li#liContacts:hover
+{
+    background-color: #607788;
+
+}
+
+li>a#Contacts:hover{
+    color:white;
+}
+
+li>a#Contacts
+{
+    text-decoration: none;
+    color: #877160;
+}
