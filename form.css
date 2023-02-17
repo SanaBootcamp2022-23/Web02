@@ -3,7 +3,6 @@
     justify-content: center;
 }
 
-/* форматування для поля та блоку форми */
 fieldset {
     display: flex;
 
@@ -11,13 +10,11 @@ fieldset {
     border: 3px solid rgb(163, 163, 163);
 }
 
-/* висота для елементів введення */
 fieldset tbody input {
     height: 30px;
     font-size: 14px;
 }
 
-/* форматування для елементу вибору міста */
 fieldset tbody select {
     height: 35px;
     width: 215px;
@@ -25,19 +22,16 @@ fieldset tbody select {
     background-color: rgb(153, 153, 255);
 }
 
-/* висота для елементів радіо та чекбокс */
 fieldset input[type="radio"],
 fieldset input[type="checkbox"] {
     height: 15px;
 }
 
-/* обтікання для перших дочірніх лейблів */
 fieldset tbody label:first-child {
     float: right;
     font-weight: bold;
 }
 
-/* форматування для елементів введення */
 fieldset input[id="email"],
 fieldset input[id="name"],
 fieldset input[id="surname"] {
@@ -45,32 +39,27 @@ fieldset input[id="surname"] {
     background-color: rgb(255, 255, 98);
 }
 
-/* форматування для елементів */
 fieldset input[type="password"] {
     border: 2px solid rgb(194, 0, 184);
     background-color: rgb(255, 145, 249);
 }
 
-/* форматування для поля введення 'О собі:' */
 textarea[id="about_yourself"] {
     border: 2px solid darkgreen;
     background-color: rgb(205, 253, 200);
     font-size: 14px;
 }
 
-/* форматування для кнопки підтвердження */
 fieldset tfoot input[type="submit"] {
     border: 1px solid darkgreen;
     background-color: rgb(205, 253, 200);
 }
 
-/* форматування для кнопки скидання */
 fieldset tfoot input[type="button"] {
     border: 1px solid darkred;
     background-color: rgb(255, 154, 154);
 }
 
-/* форматування для атрибуту підсказки у полях введення */
 ::placeholder {
     font-size: 14px;
     color: rgb(78, 78, 78);
