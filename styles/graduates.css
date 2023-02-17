@@ -1,0 +1,40 @@
+.main {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    position: relative;
+    text-align: left;
+}
+
+.logo img,h1 {
+    display: inline-block;
+}
+
+.logo h1 {
+    color: #303031;
+    font-size: 30px;
+}
+
+.photos {
+    border-radius: 200px;
+    margin-left: 50px;
+}
+
+p {
+    font-size: 20px;
+    width: 300px;
+    margin-right: 0px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+blockquote {
+    font-size: 20px;
+    width: 500px;
+    float: left;
+    margin-top: -290px;
+    margin-left: 400px;
+    color: gray;
+}
