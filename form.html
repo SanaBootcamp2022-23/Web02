@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form method="post" action="">
+    <label>E-mail:</label>
+    <input type="email" name="email" placeholder="example@gmail.com">
+    <label>Пароль:</label>
+    <input type="password" name="password">
+    <label>Пароль ще раз:</label>
+    <input type="password" name="password">
+    <label>Ім'я:</label>
+    <input type="text" name="FirstName">
+    <label>Прізвище:</label>
+    <input type="text" name="LastName">
+    <label>Стать:</label>
+    <fieldset>
+        <label>
+            <input type="radio" name="gender">
+            чоловіча
+        </label>
+        <label>
+            <input type="radio" name="gender">
+            жіноча
+        </label>
+    </fieldset>
+    <label>Місто:</label>
+    <select name="city">
+        <option value="Zhytomyr" selected>Житомир</option>
+        <option value="Kyiv">Київ</option>
+        <option value="Lviv">Львів</option>
+    </select>
+    <label>Про себе:</label>
+    <textarea name="about"></textarea>
+    <label>Угоди:</label>
+    <fieldset>
+        <label>
+            <input type="checkbox" value="getspam" name="getspam">
+            Отримувати розсилки сайту
+        </label>
+        <label>
+            <input type="checkbox" value="rules" name="rules">
+            Погоджуюсь із правилами сайту
+        </label>
+        <label>
+            <input type="checkbox" value="hidden" name="hiddenprof">
+            Приховати профіль на сайті
+        </label>
+    </fieldset>
+    <fieldset>
+        <input type="submit" value="Зареєструватися" name="register">
+        <input type="reset" value="Скинути" name="clear">
+    </fieldset>
+
+
+
+
+</form>
+</body>
+</html>
