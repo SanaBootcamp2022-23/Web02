@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.2rem;
+}
+body {
+    padding: 20px 0;
+}
+.container {
+    max-width: 1030px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.block-item {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 120px;
+}
+.block-item-left {
+    flex: 0 0 20%;
+}
+.block-item-right {
+    flex: 0 0 80%;
+}
+
+.block-item-left-img-wrapper {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.block-item-left-img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.block-item-left-position {
+    text-align: center;
+    font-style: italic;
+}
+
+.block-item-right-info {
+    padding: 20px 100px;
+    line-height: 1.5rem;
+    font-size: 18px !important;
+    position: relative;
+}
+.block-item-right-text {
+    font-style: italic;
+}
+.block-item-right-author {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.block-item-right-info:before {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/quote.png");
+    content: '';
+    top: 0;
+    left: 20px;
+}
+.block-item-right-info:after {
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/quote.png");
+    content: '';
+    bottom: 5px;
+    right: -5px;
+    transform: rotate(180deg);
+}
