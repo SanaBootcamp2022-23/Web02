@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/form.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <td><span>E-mail: </span></td>
+                <td>
+                    <input type="email" name="email" placeholder="E-mail">
+                </td>
+            </tr>
+            <tr>
+                <td>Пароль: </td>
+                <td>
+                    <input type="password" name="password" placeholder="Password">
+                </td>
+            </tr>
+            <tr>
+                <td>Пароль еще раз: </td>
+                <td>
+                    <input type="password" name="password" placeholder="Password">
+                </td>
+            </tr>
+            <tr>
+                <td>Имя: </td>
+                <td>
+                    <input type="text" name="name" placeholder="Name">
+                </td>
+            </tr>
+            <tr>
+                <td>Фамилия: </td>
+                <td>
+                    <input type="text" name="surname" placeholder="Surname">
+                </td>
+            </tr>
+            <tr>
+                <td>Пол: </td>
+                <td>
+                    <label>
+                        <input type="radio" name="gender" value="male"> мужской
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="female"> женский
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>Город: </td>
+                <td>
+                    <select name="city" id="city">
+                        <option value="Zhytomyr">Житомир</option>
+                        <option value="Kyiv">Київ</option>
+                        <option value="Odesa">Одеса</option>
+                        <option value="Kharkiv">Харків</option>
+                        <option value="Sumy">Суми</option>
+                        <option value="Chernigiv">Чернігів</option>
+                        <option value="Vinnytsia">Вінниця</option>
+                        <option value="Berdychiv">Бердичів</option>
+                        <option value="Slavutych">Славутич</option>
+                        <option value="Rivne">Рівне</option>
+                        <option value="Lviv">Львів</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>О себе:</td>
+                <td>
+                    <textarea name="about" id="about"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="4">Соглашения: </td>
+                <td>
+                    <label for="checkbox">
+                        <input type="checkbox" name="agreement" value="get-mail"> Получать рассылки сайту
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="checkbox">
+                        <input type="checkbox" name="agreement" value="agreement-rules"> Соглашаюсь с правилами сайта
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="checkbox">
+                        <input type="checkbox" name="agreement" value="hide-profile"> Скрыть профиль на сайте
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Зарегистрироваться">
+                    <input type="reset" value="Сброс">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

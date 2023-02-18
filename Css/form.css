@@ -1,0 +1,83 @@
+:root {
+    --input-height: 32px;
+    --input-width: 302px;
+}
+
+table {
+    padding: 10px 40px 10px 0;
+    background-color: Gainsboro;
+    border: 5px solid Silver;
+}
+
+input::placeholder {
+    color: black;
+    opacity: .7;
+}
+
+input[type="email"], input[type="password"], input[type="text"], select[name="city"] {
+    height: var(--input-height);
+    width: var(--input-width);
+    box-sizing: border-box;
+}
+
+input[type="email"], input[type="text"] {
+    background-color: yellow;
+    border: 2px solid DarkKhaki;
+}
+
+input[type="password"] {
+    background-color: Plum;
+    border: 2px solid MediumOrchid;
+}
+
+select[name="city"] {
+    background-color: MediumPurple;
+    border: 2px solid BlueViolet;
+}
+
+textarea {
+    width: var(--input-width);
+    height: 92px;
+    max-width: var(--input-width);
+    min-width: var(--input-width);
+    min-height: var(--input-height);
+    box-sizing: border-box;
+    background-color: PaleGreen;
+    border: 2px solid SeaGreen;
+}
+
+tr:nth-child(n-10) td:first-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+td label {
+    text-align: left;
+    font-weight: normal;
+}
+
+input[type="submit"], input[type="reset"] {
+    border: 2px solid Gainsboro;
+    padding: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: PaleGreen;
+}
+
+input[type="submit"]:hover {
+    background-color: LightGreen;
+}
+
+input[type="reset"] {
+    background-color: LightCoral;
+}
+
+input[type="reset"]:hover {
+    background-color: IndianRed;
+}
+
+table:nth-child(n-3) {
+    text-align: left;
+}
