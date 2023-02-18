@@ -1,0 +1,28 @@
+ul li {
+    list-style-type: none;
+}
+
+.nav {
+    gap: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    font-size: 30px;
+}
+
+ul a {
+
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid #B0C7D8;
+    border-radius: 5px;
+    margin-left: 20px;
+    color: #607788;
+}
+
+.nav a:hover {
+    color: white;
+    background-color: #607788;
+}

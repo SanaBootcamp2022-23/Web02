@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 0.9fr;
+    width: 80%;
+}
+
+.secondComment {
+    position: relative;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+}
+
+.secondComment:last-child {
+    margin-left: 90%;
+}
+
+
+img[alt="quote"] {
+    position: absolute;
+
+}
+
+img {
+    border-radius: 50%;
+}
+
+p {
+    text-align: center;
+    color: rgb(90, 88, 88);
+    font-size: large;
+}
+
+.chapter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>form</title>
+</head>
+
+<body>
+    <div>
+        <form method="post">
+            <table>
+                <tr>
+                    <td><label for="Email">E-mail:</label>
+                    </td>
+                    <td><input type="email" name="Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="Pass">Пароль:</label></td>
+                    <td><input type="password" name="Pass"></td>
+                </tr>
+                <tr>
+                    <td><label for="passAgain">Пароль ще раз:</label></td>
+                    <td><input type="password" name="passAgain"></td>
+                </tr>
+                <tr>
+                    <td><label for="Name">Имя:</label></td>
+                    <td><input type="text" name="Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="SecondName">Фамилия:</label></td>
+                    <td><input type="text" name="SecondName"></td>
+                </tr>
+                <tr>
+                    <td>Стать:</td>
+                    <td><label><input type="radio" name="sex">чоловік</label>
+                        <label><input type="radio" name="sex">жінка</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="City">Місто:</label>
+                    </td>
+                    <td>
+                        <select name="City">
+                            <option value="1">Житомир</option>
+                            <option value="2">Київ</option>
+                            <option value="3">Вінниця</option>
+                            <option value="4">Харків</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="About">Про себе:</label>
+                    </td>
+                    <td><textarea name="About"></textarea></td>
+
+
+                </tr>
+                <tr>
+                    <td>Погодження:</td>
+                    <td>
+                        <div>
+                            <label>
+                                <input type="checkbox" name="agreement[]" value="get">Отримувати розсилки сайту
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="checkbox" name="agreement[]" value="rules">Погоджуюсь з правилами сайту
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <input type="checkbox" name="agreement[]" value="hide">Приховати профіль на сайті
+                            </label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Зареєструватися"></td>
+                    <td><input type="reset" name="" id="" value="Скинути"></td>
+                </tr>
+            </table>
+
+        </form>
+    </div>
+</body>
+
+</html>
