@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form{
+    display: grid;
+    grid-template-columns: 12vh 26vh;
+    border: 2px solid silver;
+    width: 40vh;
+    background-color: aliceblue;
+}
+label{
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+input{
+    margin: 3px;
+}
+input[type="radio"]{
+    width: 25px;
+}
+textarea{
+    border: 3px solid green;
+    margin: 2px;
+    height: 7vh;
+    background-color: chartreuse;
+}
+select{
+    border: 3px solid blueviolet;
+    margin: 2px;
+    height: 35px;
+    background-color: violet;
+}
+input[type="submit"]
+{
+    width: 13vh;
+    background-color: green;
+    font-size: 12px;
+    border: 2px solid silver;
+}
+input[type="reset"]
+{
+    font-size: 12px;
+    background-color: firebrick;
+    border: 2px solid silver;
+}
+input[type="text"]
+{
+    background-color: #eac960;
+    border: 3px solid yellow;
+    height: 3vh;
+}
+input[type="password"]
+{
+    background-color: #ea7690;
+    border: 3px solid red;
+    height: 2vh;
+}

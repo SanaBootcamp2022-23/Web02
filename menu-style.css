@@ -1,0 +1,30 @@
+li{
+    border: 2px solid #B0C7D8;
+    text-align: center;
+    border-radius: 5px;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+ul{
+    list-style-type: none;
+}
+li:hover{
+    background-color: #607788;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #877160;
+}
+a:hover{
+    color: white;
+}
+.nav{
+    gap: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+}
