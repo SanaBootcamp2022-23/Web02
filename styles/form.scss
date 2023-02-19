@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  max-width: 650px;
+  padding: 25px;
+
+  font-family: "Arial", serif;
+  font-size: 14pt;
+
+  display: grid;
+  grid-template-columns: auto 2fr;
+  grid-gap: 10px;
+
+  // Field labels
+  > label {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: right;
+  }
+
+  // Fields
+  input, select, textarea {
+    border: solid 2px;
+    &, > div {
+      padding: 10px;
+      font: inherit;
+    }
+  }
+
+  > input {
+    // E-mail, First & Last names
+    &:nth-of-type(1), &:nth-of-type(4), &:nth-of-type(5) {
+      background-color: #ffffd9;
+      border-color: #b7b732;
+    }
+    // Passwords
+    &:nth-of-type(2), &:nth-of-type(3) {
+      background-color: #f1b8ff;
+      border-color: #733383;
+    }
+  }
+  // Cities
+  > select {
+    background-color: #a7a7ff;
+    border-color: #08083a;
+  }
+  // About
+  > textarea {
+    background-color: #c5ffc1;
+    border-color: #348d2e;
+  }
+
+  // Sex
+  div:nth-of-type(1) > label {
+    margin-right: 15px;
+  }
+
+  // Agreements
+  div:nth-of-type(2) {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    > input {
+      margin-right: 10px;
+    }
+  }
+
+  // Buttons
+  div:nth-of-type(3) {
+    grid-column: 2;
+    > input {
+      padding: 2px;
+
+      // Register
+      &:first-child {
+        background-color: #bbffaa;
+        border-color: #3ec31d;
+      }
+      // Reset
+      &:last-child {
+        background-color: #ffa0a0;
+        border-color: #9b0e0e;
+      }
+    }
+  }
+}
+

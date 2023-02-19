@@ -1,0 +1,83 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Segoe UI", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 1em;
+  display: grid;
+}
+
+.quote {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: 200px 5fr;
+  margin-top: 5em;
+}
+.quote .author {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto 1fr;
+}
+.quote .author img {
+  width: 128px;
+  height: 128px;
+  border: solid 2px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  justify-self: center;
+}
+.quote .author p {
+  margin-top: 7px;
+  text-align: center;
+  font-style: italic;
+  font-size: 10pt;
+  font-weight: 600;
+  color: darkolivegreen;
+}
+.quote blockquote {
+  max-width: 600px;
+  font-family: "Georgia Pro", sans-serif;
+  font-style: italic;
+  font-size: 18pt;
+}
+.quote blockquote > div {
+  padding: 25px;
+}
+.quote blockquote > div p:nth-last-of-type(1) {
+  text-align: right;
+  padding: 0.5em 0.25em 0 0;
+}
+.quote blockquote::before, .quote blockquote::after {
+  font-size: 5rem;
+}
+.quote blockquote::before {
+  content: "“";
+  position: absolute;
+  margin-left: -1rem;
+}
+.quote blockquote::after {
+  content: "”";
+  float: right;
+  text-align: right;
+  margin-top: -50px;
+}
+
+/*# sourceMappingURL=graduates.css.map */
