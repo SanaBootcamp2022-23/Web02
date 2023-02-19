@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Form</title>
+</head>
+<body>
+    <div>
+        <div>
+            <div>
+                <p>Email</p>
+            </div>
+            <div>
+                <p>Пароль</p>
+            </div>
+            <div>
+                <p>Підтвердити пароль</p>
+            </div>
+            <div>
+                <p>Ім'я</p>
+            </div>
+            <div>
+                <p>Прізвище</p>
+            </div>
+            <div>
+                <p>Стать</p>
+            </div>
+            <div>
+                <p>Місто</p>
+            </div>
+            <div>
+                <p>Про себе</p>
+            </div>
+            <div>
+                <p>Погодження</p>
+            </div>
+        </div>
+
+        <div>
+            <form action="">
+                <div>
+                    <label>
+                        <input type="email" name="login" required/>
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="password" name="pass" pattern="^(?=.*[a-z])(?=.*[A-Z])([a-zA-Z\d]).{6,16}$"
+                               title="Повинна бути присутня велика і мала літера. Мінімум 6 символів" required/>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="password" name="confirmPass" pattern="^(?=.*[a-z])(?=.*[A-Z])([a-zA-Z\d]).{6,16}$" required/>
+                    </label>
+                </div>
+
+                <div>
+                    <label><input type="text" name="firstName" required/> <br></label>
+                </div>
+
+                <div>
+                    <label><input type="text" name="lastName" required/></label>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="radio" name="gender" value="male"/> Чоловіча
+                        <input type="radio" name="gender" value="female"/> Жіноча
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <select name="regions" >
+                            <option value="0" disabled selected></option>
+                            <option value="1">Вінниця</option>
+                            <option value="2">Житомир</option>
+                            <option value="3">Київ</option>
+                            <option value="4">Одеса</option>
+                            <option value="5">Львів</option>
+                            <option value="6">Полтава</option>
+                            <option value="7">Харків</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div>
+                    <label><textarea name="userAbout"></textarea></label>
+                </div>
+
+                <div>
+                    <label><input type="checkbox" name="agreements[]" value="distribution"/> Отримувати розсилку сайту</label>
+
+                    <label><input type="checkbox" name="agreements[]" value="policy" required/> Погоджуюсь з правилами сайту</label>
+
+                    <label><input type="checkbox" name="agreements[]" value="isHidden"/> Приховати профіль на сайті</label>
+                </div>
+
+                <div>
+                    <button type="submit">Зареєструватися</button>
+                    <button type="reset">Скинути</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

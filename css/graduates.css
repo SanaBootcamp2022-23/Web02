@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;1,400&family=Roboto&family=Source+Sans+Pro&display=swap');
+
+* {
+
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    width: 60%;
+    margin: 50px auto;
+}
+
+.content-img {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 10px;
+}
+
+.content-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+small {
+    margin-top: 15px;
+    font-size: smaller;
+    font-style: italic;
+    text-align: center;
+}
+
+.content-quote {
+    width: 80%;
+}
+
+.quote-wrapper {
+    position: relative;
+    margin: 20px;
+}
+
+.content-quote blockquote {
+    display: inline-block;
+    text-align: justify;
+    font-style: italic;
+    padding: 20px 30px;
+    position: relative;
+}
+blockquote footer {
+    font-style: normal;
+    margin-top: 10px;
+    text-align: end;
+}
+
+
+.content-quote > div::before {
+    content: '\201C';
+    top: -15px;
+    left: 0;
+}
+
+blockquote::after {
+    content: '\201D';
+    right: 10px;
+    transform: rotate(-5deg);
+}
+
+.content-quote > div::before,
+blockquote::after {
+    display: block;
+    font-size: 3em;
+    text-align: center;
+    position: absolute;
+    opacity: 0.2;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 900px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    * {
+        font-size: 14px;
+    }
+
+    .content-img {
+        width: 50%;
+    }
+}
+
+

@@ -1,0 +1,165 @@
+:root {
+    --divblock-height: 50px;
+    --divblock-width: 330px;
+    --block-margin: 10px;
+    --button-trans: 200ms;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+body > div:first-child {
+    display: inline-flex;
+    margin: 45px 20px;
+    padding: 10px;
+    background-color: rgba(220, 210, 210, 0.64);
+    border: 2px solid rgb(141, 135, 135);
+
+}
+
+body ~ div {
+    display: flex;
+    flex-direction: column;
+}
+
+body > div ~ div {
+    font-weight: bold;
+}
+
+body div:first-child {
+    font-weight: bold;
+}
+
+body > div > div:first-child > div {
+    display: flex;
+    height: var(--divblock-height);
+    margin-left: var(--block-margin);
+    justify-content: right;
+    align-items: center;
+}
+
+form > div {
+    display: flex;
+    height: var(--divblock-height);
+    width: var(--divblock-width);
+    margin-left: var(--block-margin);
+    align-items: center;
+}
+
+input:not(input[type="checkbox"]):not(input[type="radio"]), select, textarea {
+    height: calc(var(--divblock-height) - var(--block-margin));
+    width: calc(var(--divblock-width) - var(--divblock-height));
+}
+
+body > div > div div:nth-of-type(8) {
+    height: calc(var(--divblock-height) * 2 + var(--block-margin));
+}
+
+label textarea {
+    height: calc(var(--divblock-height) * 2);
+    resize: none;
+    font-size: larger;
+}
+
+input[type="radio"] {
+    margin: calc(var(--block-margin) / 2);
+}
+
+form div:nth-last-child(2) {
+    flex-direction: column;
+    align-items: normal;
+    font-size: 0.9rem;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+form div label {
+    font-weight: lighter;
+}
+
+input, textarea, select {
+    font-size: larger;
+}
+
+input[type="email"], input[type="text"] {
+    background-color: #edec82;
+    border: 2px solid #c4c030;
+}
+
+input[type="password"] {
+    background-color: rgba(131, 66, 234, 0.6);
+    border: 2px solid rgb(90, 25, 190);
+}
+
+textarea {
+    background-color: rgba(69, 231, 69, 0.75);
+    border: 2px solid rgb(3, 168, 3);
+}
+
+label select {
+    background-color: rgba(131, 66, 234, 0.77);
+    border: 2px solid rgba(36, 7, 84);
+}
+
+label > input:not(input[type="checkbox"]), textarea, select {
+    outline-color: white;
+    transition: 0.7s;
+}
+
+form div:last-child button {
+    padding: 10px 25px;
+    border: 0;
+    background-color: rgba(88, 255, 153, 0.62);
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    transition: all .5s ease;
+}
+
+form div:last-child button:last-of-type {
+    background-color: rgba(248, 18, 18, 0.58);
+    margin-left: var(--block-margin);
+}
+
+form div:last-child button:hover {
+    transition: 0.7s;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: hsl(130, 63%, 40%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(26, 211, 99) 0px 7px 29px 0px;
+}
+
+form div:last-child button:active
+{
+    letter-spacing: 2px;
+    background-color: hsl(143, 90%, 35%);
+    color: hsl(0, 0%, 100%);
+    transform: translateY(15px);
+    transition: var(--button-trans);
+}
+
+form div:last-child button:last-child:hover {
+    letter-spacing: 2px;
+    background-color: hsl(0, 97%, 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(250, 58, 58) 0px 7px 29px 0px;
+}
+
+form div:last-child button:last-child:active {
+    letter-spacing: 2px;
+    background-color: hsl(0, 75%, 52%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(236, 71, 81) 0px 7px 29px 0px;
+    transform: translateY(15px);
+    transition: var(--button-trans);
+}
+
+input:not(input[type="checkbox"]):not(input[type="radio"]):focus, textarea:focus, select:focus {
+    box-shadow: 0 0 0 2px #013d56;
+}
