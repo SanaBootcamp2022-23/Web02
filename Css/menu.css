@@ -1,6 +1,15 @@
+nav {
+    margin-top: 50px;
+}
+
 nav ul li {
     display: inline-block;
     list-style-type: none;
+}
+
+a {
+    text-decoration:none;
+    color: #877160;
 }
 
 nav ul li:hover, nav ul li:hover a {
@@ -9,17 +18,15 @@ nav ul li:hover, nav ul li:hover a {
     cursor: pointer;
 }
 
-a {
-    text-decoration:none;
-    color: #877160;
-}
-
 li {
     margin-right: 40px;
+}
+
+a {
     border: 4px solid #B0C7D8;
-    padding: 20px 40px;
     font-size: larger;
     border-radius: 5px;
+    padding: 20px 40px;
 }
 
 li:last-child {
