@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forms - Danyil Tuhaienko</title>
+	<link rel="stylesheet" href="../style/form.css">
+</head><body>
+	<form action="">
+		<label>
+			Email:
+			<input type="text">
+		</label>
+		<label>
+			Password:
+			<input type="Password">
+		</label>
+		<label>
+			Repeat password:
+			<input type="Password">
+		</label>
+		<label>
+			Name:
+			<input type="text">
+		</label>
+		<label>
+			Surname:
+			<input type="text">
+		</label>
+		<label>
+			Sex:
+			<label>
+				<label for="Male">
+					<input type="radio" name="Male" value="Male">
+		      		Male
+		      	</label>
+		      	<label for="Female">
+					<input type="radio" name="Female" value="Female">
+		      		Female
+		      	</label>
+	      	</label>
+		</label>
+		<label>
+			City:
+			<select>
+				<option value="volvo">Zhytomyr</option>
+				<option value="volvo">Kyiv</option>
+				<option value="volvo">Lviv</option>
+			</select>
+		</label>
+		<label>
+			About me:
+			<textarea rows="10"></textarea>
+		</label>
+		<label>
+			Agreements:
+			<div>
+				<label for="News">
+					<input type="checkbox" name="News">
+					Subscribe to news
+				</label>
+
+				<label for="Rules">
+					<input type="checkbox" name="Rules">
+					Website rules
+				</label>
+				
+				<label for="HideProfile">
+					<input type="checkbox" name="HideProfile">
+					Hide my profile
+				</label>
+			</div>
+		</label>
+		<div>
+			<input type="button" value="Register">
+			<input type="button" value="Reset">
+		</div>
+	</form>
+</body>
+</html>
