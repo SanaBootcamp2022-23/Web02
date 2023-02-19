@@ -1,0 +1,62 @@
+.img-container {
+    width: 230px;
+    float: left;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.img {
+    height: 230px;
+    border-radius: 50%;
+}
+
+figcaption {
+    width: 230px;
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+}
+
+.quotation-marks {
+    font-size: 50px;
+    color: gray;
+}
+
+.quote-container {
+    width: 700px;
+}
+
+.quote-container::before {
+    content: "❝";
+    font-size: 45px;
+    color: gray;
+    margin-left: -50px;
+}
+
+.quote-container::after {
+    content: "❝";
+    font-size: 45px;
+    color: gray;
+    text-align: right;
+    float: right;
+    margin-right: -20px;
+}
+
+.float-right {
+    text-align: right;
+}
+
+.quote-text {
+    margin: -10px 0;
+    font-style: italic;
+}
+
+.quote-name {
+    text-align: right;
+    margin-right: 30px;
+    margin-bottom: 0;
+}
+
+.clearfix {
+    clear: both;
+}
