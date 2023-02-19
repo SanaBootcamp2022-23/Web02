@@ -1,0 +1,45 @@
+:root {
+    --border-color: #B0C7D8;
+    --background-color: #607788;
+    --text-color: #877160;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.nav {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+}
+
+.nav li{
+    padding: 20px;
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 3px solid var(--border-color);
+}
+
+.nav li a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.nav li:hover, .nav li:hover a {
+    background-color: var(--background-color);
+    color: white;
+}
+
