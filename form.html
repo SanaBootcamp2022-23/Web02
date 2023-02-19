@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style__form.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="#" class="form">
+
+        <label for="Email">
+            E-mail:
+            <input type="text" name="Email" id="">
+        </label>
+        <label for="Password">
+            Пароль: 
+            <input type="password" name="Password" id="">
+        </label>
+        
+        <label for="AgainPassword">
+            Пароль ещё раз: 
+            <input type="password" name="AgainPassword" id="">
+        </label>
+        
+        <label for="FirstName">
+            Имя:
+            <input type="text" name="FirstName" id="">
+        </label>
+        
+        <label for="LastName">
+            Фамилия:
+            <input type="text" name="LastName" id="">
+        </label>
+
+        <label for="Gender">
+            Пол:
+            <input type="radio" name="Gender" id="" value="мужской">мужской
+            <input type="radio" name="Gender" id="" value="женский">женский            
+        </label>
+
+
+        <label for="City">
+            Город:
+            <select name="City" id="">
+                <option value="Zhytomyr">Житомир</option>
+                <option value="Lviv">Львів</option>
+                <option value="New York">Нью-Йорк</option>
+                <option value="London">Лондон</option>
+            </select>
+        </label>
+
+
+        <label for="About">
+            <span>О себе:</span>
+            <textarea name="About" id="" cols="32" rows="6"></textarea>
+        </label>
+
+        <label for="Agreements">
+            <span>Соглашения:</span>
+            <div class="agreements__content">
+                <span><input type="checkbox" name="Agreements" id="" value="1">Lorem, ipsum dolor.</span>
+                <span><input type="checkbox" name="Agreements" id="" value="2">Lorem, ipsum dolor.</span>
+                <span><input type="checkbox" name="Agreements" id="" value="3">Lorem, ipsum dolor.</span> 
+            </div>
+        </label>
+
+        <label for="Navigation">
+            <input type="submit" value="Зарегистрироваться">
+            <input type="reset" value="Сброс">
+        </label>
+    </form>
+</body>
+</html>

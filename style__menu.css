@@ -1,0 +1,41 @@
+:root{
+    --btn__bg--color: #607788;
+    --btn__border--color: #B0C7D8;
+    --btn__text--color: #877160;
+}
+
+*,::after,::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.nav{
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+}
+
+.nav__item a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: var(--btn__text--color);
+    transition: .3s linear;
+}
+
+.nav__item{
+    border: 2px solid var(--btn__border--color);
+    border-radius: 8px;
+}
+
+.nav__item a:hover{
+    background-color: var(--btn__bg--color);
+    color: #fff;
+}

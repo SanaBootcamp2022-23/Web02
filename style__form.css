@@ -1,0 +1,94 @@
+*,::after,::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.form{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8px 24px 8px 8px;
+    background-color: #bbbbbb;
+    border: #5a5a5a 3px solid;
+    max-width: 414px;
+    width: 100%;
+}
+
+label{
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+input{
+    width: 240px;
+    padding: 4px 0 4px 4px;
+}
+
+input[type="text"]{
+    background-color: rgb(248, 248, 57);
+    border: 4px rgb(124, 124, 50) solid;
+}
+
+input[type="password"]{
+    background-color: #da4ac6;
+    border: 4px #8a2c7d solid;
+}
+
+input[name="Gender"]{
+    width: 24px;
+}    
+
+select{
+    width: 240px;
+    padding: 4px 0 4px 4px;
+    background-color: rgb(168, 79, 252);
+    border: 4px solid rgb(125, 45, 179) ;
+}
+
+label[for="About"]{
+    display: flex;
+    align-items: center;
+}
+
+textarea[name="About"]{
+    background-color: #198f4e;
+    border: 4px solid #156e3d;
+    width: 240px;
+}
+
+label[for="Agreements"]{
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
+
+input[name="Agreements"]{
+    width: 14px;
+}
+
+label[for="Agreements"] div{
+    display: flex;
+    flex-direction: column;
+}
+
+label[for="Navigation"]{
+    align-self: center;
+}
+
+input[type="submit"]{
+    width: 160px;
+    background-color: #47f11c;
+}
+input[type="reset"]{
+    width: 60px;
+    background-color: #ff1616;
+}
