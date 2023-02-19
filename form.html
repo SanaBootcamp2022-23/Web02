@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="form_style.css">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="">
+    <label>E-mail:</label>
+    <input type="email" placeholder="admin">
+    <label>Пароль:</label>
+    <input type="password" placeholder="***" name="1sa">
+    <label>Пароль ще раз:</label>
+    <input type="password" placeholder="***"></div>
+    <label>Ім'я:</label>
+    <input type="text"></div>
+    <label>Прізвище:</label>
+    <input type="text"></div>
+    <label>Стать:</label>
+    <fieldset>
+        <label>
+            <input type="radio" name="gender" value="m" checked>чоловічий
+        </label>
+        <label>
+            <input type="radio" name="gender" value="f">жіночий
+        </label>
+    </fieldset>
+    <label>Місто:</label>
+    <select name="cities">
+        <option value="1" selected>Житомир</option>
+        <option value="2">Київ</option>
+        <option value="3">Харків</option>
+        <option value="4">Львів</option>
+    </select>
+    <label>Про себе:</label>
+    <textarea name="about_myself"></textarea>
+    <label>Погодження:</label>
+    <fieldset>
+        <label>
+            <input type="checkbox" value="spam" name="spam">
+            Отримувати розсилки сайту
+        </label>
+        <label>
+            <input type="checkbox" value="rights" name="rights">
+            Погоджуюсь із правилами сайту
+        </label>
+        <label>
+            <input type="checkbox" value="profile hidden" name="profile hidden">
+            Приховати профіль на сайті
+        </label>
+    </fieldset>
+    <fieldset>
+        <input type="submit" value="Зареєструватися" name="refister">
+        <input type="reset" value="Скинути" name="reset">
+    </fieldset>
+</form>
+</body>
+</html>
