@@ -46,9 +46,13 @@ textarea {
     border: 2px solid SeaGreen;
 }
 
-tr:nth-child(n-10) td:first-child {
+tr td:first-child {
     text-align: right;
     font-weight: bold;
+}
+
+tr:nth-child(n+10) td {
+    text-align: left;
 }
 
 td label {
