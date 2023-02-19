@@ -1,0 +1,26 @@
+:root{
+    --text-color: #877160;
+    --border-color: #B0C7D8;
+    --background-color: #607788;
+}
+.nav{
+    width: 500px;
+    margin: 50px auto;
+    list-style-type: none;
+}
+.nav li{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 0;
+}
+.nav a{
+    color: var(--text-color);
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+}
+.nav a:hover{
+    background-color: var(--background-color);
+    color: white;
+}

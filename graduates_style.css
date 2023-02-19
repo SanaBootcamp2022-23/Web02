@@ -1,0 +1,48 @@
+.graduated{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    margin-top: 30px;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+.article span{
+    color: gray;
+    float: right;
+}
+.author{
+    width: 90%;
+    text-align: center;
+}
+.article{
+    padding: 0 40px;
+    position: relative;
+}
+.article::after{
+    content: url("images/after.jpg");
+    position: absolute;
+    right: 0;
+}
+.article::before{
+    content: url("images/before.jpg");
+    position: absolute;
+    left: 0;
+}
+.img1 {
+    content: url("images/kuryata-s.jpg");
+}
+.img2{
+    content: url("images/serdyuk-a.jpg");
+}
+.img{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.container p{
+    font-style: italic;
+    color: gray;
+}
