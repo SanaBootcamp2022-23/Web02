@@ -1,12 +1,28 @@
 :root {
     --input-height: 32px;
     --input-width: 302px;
+    
+    --table-color: Gainsboro;
+    --table-border-color: Silver;
+    --yellow-color: yellow;
+    --yelow-border-color: DarkKhaki;
+    --pink-color: Plum;
+    --pink-border-color: MediumOrchid;
+    --purple-color: MediumPurple;
+    --purple-border-color: BlueViolet;
+    --green-color: PaleGreen;
+    --green-border-color: SeaGreen;
+    --btn-green-color: LightGreen;
+    --btn-red-color: LightCoral;
+    --btn-red-border-color: IndianRed;
+
+    --border-input-width: 2px;
 }
 
 table {
     padding: 10px 40px 10px 0;
-    background-color: Gainsboro;
-    border: 5px solid Silver;
+    background-color: var(--table-color);
+    border: 5px solid var(--table-border-color);
 }
 
 input::placeholder {
@@ -21,18 +37,18 @@ input[type="email"], input[type="password"], input[type="text"], select[name="ci
 }
 
 input[type="email"], input[type="text"] {
-    background-color: yellow;
-    border: 2px solid DarkKhaki;
+    background-color: var(--yellow-color);
+    border: var(--border-input-width) solid var(--yelow-border-color);
 }
 
 input[type="password"] {
-    background-color: Plum;
-    border: 2px solid MediumOrchid;
+    background-color: var(--pink-color);
+    border: var(--border-input-width) solid var(--pink-border-color);
 }
 
 select[name="city"] {
-    background-color: MediumPurple;
-    border: 2px solid BlueViolet;
+    background-color: var(--purple-color);
+    border: var(--border-input-width) solid var(--purple-border-color);
 }
 
 textarea {
@@ -42,8 +58,8 @@ textarea {
     min-width: var(--input-width);
     min-height: var(--input-height);
     box-sizing: border-box;
-    background-color: PaleGreen;
-    border: 2px solid SeaGreen;
+    background-color: var(--green-color);
+    border: var(--border-input-width) solid var(--green-border-color);
 }
 
 tr td:first-child {
@@ -61,25 +77,25 @@ td label {
 }
 
 input[type="submit"], input[type="reset"] {
-    border: 2px solid Gainsboro;
+    border: var(--border-input-width) solid var(--table-color);
     padding: 5px;
     cursor: pointer;
 }
 
 input[type="submit"] {
-    background-color: PaleGreen;
+    background-color: var(--green-color);
 }
 
 input[type="submit"]:hover {
-    background-color: LightGreen;
+    background-color: var(--btn-green-color);
 }
 
 input[type="reset"] {
-    background-color: LightCoral;
+    background-color: var(--btn-red-color);
 }
 
 input[type="reset"]:hover {
-    background-color: IndianRed;
+    background-color: var(--btn-red-border-color);
 }
 
 table:nth-child(n-3) {
