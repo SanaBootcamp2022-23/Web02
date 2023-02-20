@@ -1,0 +1,145 @@
+.nav
+{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+.nav a
+{
+
+    text-decoration: none;
+    color: #877160 ;
+    display: inline-flex;
+    padding: 16px 16px;
+    border-radius: 5px;
+    border: 2px solid #b0c7d8;
+}
+a:hover
+{
+    background-color: #607788;
+    color: white;
+}
+.nav li
+{
+    float: left;
+    margin:  0 10px  0 22px;
+}
+.menu
+{
+    width: 600px;
+    height: 50px;
+    list-style-type: none;
+    margin-top: 300px;
+    padding-left: 0;
+    margin-left: 600px;
+}
+.menu a
+{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #7679b3;
+    display: inline-flex;
+    padding: 10px 20px;
+    background-color: #eec9ff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+}
+.menu li
+{
+    float: left;
+    margin:  0 10px  0 22px;
+}
+.mark
+{
+    width: 270px;
+    height: 270px;
+}
+.jobs
+{
+    width: 270px;
+    height: 270px;
+}
+blockquote {
+    position: relative;
+}
+
+blockquote:before {
+    position: absolute;
+    content: open-quote;
+    color: gray;
+    font-size: 4em;
+    margin-left: -0.6em;
+    margin-top: -0.4em;
+}
+blockquote:after {
+    position: absolute;
+    content: close-quote;
+    font-size: 4em;
+    color: gray;
+    bottom: 0;
+    right: 0;
+    margin-right: -0.6em;
+    margin-bottom: -0.8em;
+}
+
+.blockquote-credit
+{
+    text-align: right;
+}
+.back
+{
+    font-family: "Arial Narrow";
+    font-size: 20px;
+    width: 1000px;
+    margin: auto;
+    display: grid;
+}
+
+.box1
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.box2
+{   margin-top: 10px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.box3
+{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.box4
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.box5
+{
+    margin-top:10px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.box6
+{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
