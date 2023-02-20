@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <link rel="stylesheet" href="../styles/form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+</head>
+<body>
+    <form action="" method="get">
+        <table>
+            <tr>
+                <td><b>E-mail:</b></td>
+                <td><input type = "text" name = "email" value = "admin" style = "background-color: #ffffd9;
+    border-color: goldenrod;"/></td>
+            </tr>
+            <tr>
+                <td><b>Пароль:</b></td>
+                <td><input type = "password" name = "password" value = "111" style = "background-color: #fa8ded;
+    border-color: #ac0697;"/></td>
+            </tr>
+            <tr>
+                <td><b>Пароль ще раз:</b></td>
+                <td><input type = "password" name = "repeatpassword" value = "111" style = "background-color: #fa8ded; border-color: #ac0697" /></td>
+            </tr>
+            <tr>
+                <td> <b>Ім'я:</b></td>
+                <td><input type = "text" name = "name" value = "" style = "background-color: #ffffd9;
+    border-color: goldenrod;"/></td>
+            </tr>
+            <tr>
+                <td><b>Прізвище:</b></td>
+                <td><input type = "text" name = "surname" value = "" style = "background-color: #ffffd9;
+    border-color: goldenrod;"/></td>
+            </tr>
+            <tr>
+                <td><b>Стать:</b></td>
+                <td><input type = "radio" name = "gender" value = ""/>
+                    чоловіча
+                    <input type = "radio" name = "gender" value = ""/>
+                    жіноча
+                </td>
+            </tr>
+            <tr>
+                <td><b>Місто:</b></td>
+                <td><select name = "city" style = "background-color: lightblue;
+    border-color: blue; width: 165px">
+                    <option value="1">Житомир
+                    <option value="2">Київ
+                    <option value="3">Вінниця
+                    <option value="4">Коростишів
+                    <option value="5">Симони
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Про себе:</b></td>
+                <td><textarea name="aboutCustomer" style = "background-color: lightgreen;
+    border-color: green;"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Ви погоджуєтесь на:</b></td>
+                <td>
+                    <div><label><input type = "checkbox" name = "lang[]" value="mailinglist"/>Отримувати розсилку сайту</label></div>
+                    <div><label><input type = "checkbox" name = "lang[]" value="agreewithrights"/>Погоджуюсь з правилами сайту</label></div>
+                    <div><label><input type = "checkbox" name = "lang[]" value="hideprofile"/>Приховати профіль на сайті</label></div>
+                </td>
+            </tr>
+        </table>
+        <input type ="submit" name ="submitting" value="Зареєструватись" style = "background-color: lawngreen; border-color: aliceblue">
+        <input type ="reset" name ="resetting" value="Скинути" style="background-color: red; border-color: aliceblue">
+    </form>
+</body>
+</html>
