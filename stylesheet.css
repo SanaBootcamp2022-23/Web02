@@ -1,0 +1,34 @@
+.graduates {
+    background-color: beige;
+    font-family: "Calisto MT";
+    font-size: 22px;
+    font-style: italic;
+    color: grey;
+}
+section {
+    display: flex;
+}
+article {
+    padding: 45px;
+    margin: 20px;
+    flex: 1;
+}
+.position {
+    text-align: center;
+    justify-content: center;
+}
+
+.nav > li {
+    list-style-type: none;
+    color: #877160;
+}
+.nav > li > a {
+    float: left;
+    padding: 16px;
+    text-decoration: none;
+}
+a:hover {
+    background-color: #607788;
+    color: white;
+    border-radius: 5%;
+}
