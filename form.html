@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <style>
+        body
+        {
+            background-color: cornflowerblue;
+            font-family: 'Oswald', sans-serif;
+
+
+        }
+        form{
+            text-align: center;
+            font-size: larger;
+            font-family: 'Oswald', sans-serif;
+
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+            width: 600px;
+            height: 900px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+        }
+        input [type=checkbox]
+        {
+            margin: 20px 0 22px 0;
+        }
+        input[type=text], input[type=password]{
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0 22px 0;
+            display: inline-block;
+            border: none;
+            background: #f1f1f1;
+            font-size: 20px;
+            border-radius: 10px;
+        }
+        input[type=radio]
+        {
+            margin: 20px 0 10px 0;
+        }
+        select
+        {
+            width: 100px;
+            height: 30px;
+            margin: 20px 0 10px 0;
+        }
+        input[type=text]:focus, input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+        textarea
+        {
+            width: 300px;
+            height: 180px;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h2 style="text-align: center; font-size: 40px" ><b>Registration</b></h2>
+        <form action="" method="post">
+
+            <table>
+                <tr>
+                    <td><b>Email:</b></td>
+                    <td>
+                        <div>
+                            <input type="text" name="email" value="admin">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Password:</b></td>
+                    <td>
+                        <div>
+                            <input type="password" name="password" maxlength="16">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Password again:</b></td>
+                    <td>
+                        <div>
+                            <input type="password" name="password" maxlength="16">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b> Name:</b></td>
+                    <td>
+                        <div>
+                            <input type="text" name="name">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Surname:</b></td>
+                    <td>
+                        <div>
+                            <input type="text" name="surname">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Gender:</b></td>
+                    <td>
+                        <div>
+                            <input type="radio" name="gender" value="male">male
+                            <input type="radio" name="gender" value="female">female
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>City:</b></td>
+                    <td>
+                        <select name="cities">
+                            <option value="1">Zhytomyr</option>
+                            <option value="2">Kharkiv</option>
+                            <option value="3" selected="selected">Kyiv</option>
+                            <option value="4">Lviv</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>About yourself:</b></td>
+                    <td>
+                        <div>
+            <textarea>
+
+            </textarea>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Agreements:</b></td>
+                    <td>
+                        <div>
+                            <input type="checkbox" name="getLinks" style="text-align: left"> Receive site newsletters
+                        </div>
+                        <div>
+                            <input type="checkbox" name="agree" style="text-align: left"> Agree with the rules of the site
+                        </div>
+                        <div>
+                            <input type="checkbox" name="hide" >Hide profile on the site
+                        </div>
+
+                    </td>
+                </tr>
+            </table>
+
+            <input type="submit" name="submit" value="Register" style="margin: auto; width: 200px; height: 40px; color: white;
+            background-color: springgreen;border-radius: 5px; text-transform: uppercase; letter-spacing: 2px; background-size: 200% auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .2); border-color: springgreen;">
+            <input type="reset" name="reset" value="Reset"  style="margin: auto; width: 200px; height: 40px; color: white;
+            background-color: #ff6161;border-radius: 5px; text-transform: uppercase; letter-spacing: 2px; background-size: 200% auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, .2); border-color: #ff6161;">
+        </form>
+    </div>
+
+</body>
+</html>
