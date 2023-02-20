@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+
+<div>
+<form action="">
+    <lable><b>E-mail:</b></lable>
+    <input type="email" value="admin" name="Email">
+
+    <lable><b>Пароль:</b></lable>
+    <input type="password" value="123">
+
+    <lable><b>Пароль ще раз:</b></lable>
+    <input type="password" value="123">
+
+    <lable><b>Ім'я:</b></lable>
+    <input type="text">
+
+    <lable><b>Прізвище:</b></lable>
+    <input type="text">
+
+    <label><b>Стать:</b></label>
+    <div>
+        <input type="radio" name = "Gender">
+        <label>Чоловіча</label>
+        <input type="radio" name = "Gender">
+        <label>Жіноча:</label>
+    </div>
+
+    <label for="cities"><b>Місто:</b></label>
+    <input list="cities" id="cities-choice" name="cities">
+    <datalist id="cities">
+    <option value="Житомир"></option>
+    <option value="Київ"></option>
+    <option value="Вінниця"></option>
+    <option value="Полтава"></option>
+    <option value="Харків"></option>
+    <option value="Коростень"></option>
+    <option value="Сімферополь"></option>
+    </datalist>
+
+    <label><b>Про себе:</b></label>
+    <textarea name="text_ar"></textarea>
+
+    <label><b>Погодження:</b></label>
+    <div type="check">
+        <input type="checkbox">
+        <label name="checkbox_lab">Отримувати пошту</label>
+        <input type="checkbox">
+        <label name="checkbox_lab">Погодитись з правилами сайту</label>
+        <input type="checkbox">
+        <label name="checkbox_lab">Сховати профіль на сайті</label>
+    </div>
+
+    <label></label>
+    <div name="button_name">
+    <input type="button" value="Зареєстуватися">
+    <input type="reset" value="Скинути">
+    </div>
+</form>
+
+</div>
+</body>
+</html>
