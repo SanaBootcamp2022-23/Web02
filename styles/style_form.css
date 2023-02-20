@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.form-block{
+    display: block;
+    height: 99vh;
+    width: 40vw;
+    margin-left: 30%;
+    background-color: rgb(220, 220, 220);
+    border: 3px solid grey;
+}
+.form-main{
+
+    display: inline-block;
+    width: 100%;
+}
+.form-password{
+    background-color: rgb(175, 129, 218);
+    border-color:rgb(86, 35, 134) ;
+    border-width: 3px;
+    width: 60%;
+    height: 30px;
+    border-style: solid;
+}
+.form-user{
+    background-color: rgb(220, 255, 23);
+    border-color:rgb(122, 133, 8) ;
+    border-width: 3px;
+    width: 60%;
+    height: 30px;
+    border-style: solid;
+}
+ .form-label{
+    margin-top: 20px;
+    display: inline-block;
+    width: 10vw;
+    text-align: right;
+    border-style: solid;
+}
+.form-radio{
+    display: intline-block;
+    margin: 0;
+    padding: 0;
+}
+:is(.form-user,.form-password):focus{
+    background-color: rgb(255, 255, 255);
+    border-width: 3px;
+    width: 60%;
+    height: 30px;
+    border-style: solid;
+    border-radius: 0;
+    outline:none;
+}
+.form-select{
+    background-color: rgb(79, 131, 237);
+    border-color:rgb(3, 15, 145) ;
+    border-width: 3px;
+    width: 62%;
+    height: 40px;
+    border-style: solid;
+}
+.text-area-text{
+position: relative;
+bottom: 80px;
+    display: inline-block;
+    width: 10vw;
+    text-align: right;
+    border-style: solid;
+}
+.text-area{
+    margin-top: 20px;
+    resize: none;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(113, 201, 113);
+    border : 3px solid;
+    border-color: rgb(95, 150, 0);
+    outline:none;
+}
+.text-area:focus{
+    resize: none;
+    border-color: rgb(63, 87, 21);
+}
+.div-checkbox{
+    display: inline-block; 
+}
+.checkbox-label{
+    display: inline-block;
+    width: 10vw;
+    text-align: right;
+    border-style: solid;
+    position: relative;
+    bottom: 20px;
+}
+.submit-botton{
+    display: inline-block;
+    margin-left: 135px;
+    width: 25%;
+    background-color: rgb(69, 113, 4);
+    border: none;
+}
+.reset-botton{
+    display: inline-block;
+    width: 15%;
+    background-color: rgb(169, 36, 69);
+    border: none;
+}
