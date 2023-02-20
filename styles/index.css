@@ -1,0 +1,29 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+li a {
+    margin: 10px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border: solid 2px #95BDFF;
+    border-radius: 5px;
+    color: #DFFFD8;
+}
+li a:hover {
+    background-color: #F7C8E0 ;
+    color: azure;
+}
+body{
+    background-color: cornflowerblue;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 41%;
+}
