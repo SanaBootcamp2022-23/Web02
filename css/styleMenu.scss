@@ -1,0 +1,94 @@
+@import "variables";
+
+body {
+
+  header {
+    height: 50px;
+    border: 2px solid $task2-border-color;
+    border-radius: 5px;
+    margin: 5px 1%;
+
+    @media screen and (max-width: 520px) {
+      nav {
+        div {
+          left: 0 !important;
+          width: 350px !important;
+        }
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      nav {
+        div {
+          width: 314px !important;
+
+          li {
+            margin: 0 4px !important;
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 330px) {
+      height: 70px;
+      nav {
+        div {
+          height: auto !important;
+          width: 100% !important;
+          ul {
+            width: 100% !important;
+            height: 96% !important;
+            display: grid !important;
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(2, 1fr);
+            li{
+              margin: 1% !important;
+            }
+          }
+        }
+      }
+    }
+
+    nav {
+      height: 100%;
+      position: relative;
+
+      div {
+        position: absolute;
+        height: 30px;
+        width: auto;
+        box-sizing: border-box;
+        top: 0;
+        bottom: 0;
+        left: 15%;
+        right: 0;
+        margin: auto;
+
+        ul {
+          li {
+            margin-left: 15px;
+            display: inline-block;
+            border: 2px solid $task2-border-color;
+            padding: 4px;
+            border-radius: 2px;
+
+            a {
+              text-decoration: none;
+              color: $task2-font-color;
+            }
+
+            &:hover {
+              background: $task2-background-color;
+
+              a {
+                color: rgb(240 240 240);
+              }
+            }
+
+
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 //Dark colors
 $base-background-dark-color: rgb(13 13 13);
 $second-background-dark-color: rgb(31 31 31);
@@ -33,3 +38,8 @@ $second-font-color: #9b2d30;
 //Hover
 $green-background-hover: #aaecb0;
 $red-background-hover: #efb6bb;
+
+//Colors for task 2
+$task2-border-color:#b0c7d8;
+$task2-background-color:#607788;
+$task2-font-color:#877160;
