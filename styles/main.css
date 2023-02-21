@@ -1,0 +1,59 @@
+* {
+    font-family: sans-serif;
+
+}
+
+table {
+    margin: 0px auto;
+    border: 1px solid gray;
+    background-color: lightgray;
+    font-weight: bold;
+    height: 300px;
+    width: 450px;
+
+}
+tr td{
+    text-align: right;
+    width: 120px;
+}
+td + td{
+    text-align: left;
+    width: 300px;
+    font-weight: normal;
+}
+input[type="text"], [type="password"], [type="email"]{
+    width: 270px;
+    height: 30px;
+}
+input[type="text"], [type="email"]{
+    border: 2px solid darkgoldenrod;
+    background-color: #fff196;
+}
+input[type="password"]{
+    border: 2px solid mediumpurple;
+    background-color: #fea8ff;
+}
+select{
+    border: 3px solid blue;
+    background-color: #b0b3ff;
+    width: 277px;
+    height: 30px;
+}
+textarea{
+    width: 270px;
+    height: 100px;
+    resize: none;
+    border: 3px solid #008000;
+    background-color: lightgreen;
+
+}
+button{
+    border:0px;
+    box-shadow: 0 0 0 60px lightgreen inset, .1em .1em .2em;
+    margin-bottom: 5px;
+
+}
+button + button{
+
+    box-shadow: 0 0 0 60px #CC6699 inset, .1em .1em .2em;
+}

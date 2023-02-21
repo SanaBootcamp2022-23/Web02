@@ -1,0 +1,22 @@
+.nav{
+    display: flex;
+    list-style: none;
+    max-width: 400px;
+    justify-content: space-between;
+}
+li {
+    border: 2px solid #B0C7D8;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: #877160;
+}
+
+li:hover, li:hover > a {
+    cursor: pointer;
+    background: #607780;
+    color: white;
+}
