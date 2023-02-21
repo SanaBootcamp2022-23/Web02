@@ -36,3 +36,39 @@ a:hover {
     color: white;
     border-radius: 5%;
 }
+input {
+    background-color: goldenrod;
+    outline: darkgoldenrod solid;
+    color: white;
+}
+input[type="password"] {
+    background-color: mediumvioletred;
+    outline: #9c1169 solid;
+}
+input[type="radio"] {
+    outline: none;
+}
+select {
+    border: 0;
+    background-color: lightskyblue;
+    outline: dodgerblue solid;
+}
+textarea {
+  resize: none;
+    border: 0;
+    outline: darkgreen solid 3px;
+    background-color: forestgreen;
+    color: white;
+}
+input[type="checkbox"] {
+    outline: none;
+}
+input[type="button"] {
+    outline: none;
+}
+button {
+    background-color: darkseagreen;
+}
+button + button {
+    background-color: lightcoral;
+}
