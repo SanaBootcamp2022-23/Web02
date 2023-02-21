@@ -1,0 +1,59 @@
+body{
+    width: 100%;
+    background-image: url("img/DSC03994.jpg");
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    background-size: cover;
+}
+
+.nav_link{
+
+    vertical-align: top;
+    margin: 0 30px;
+    position: relative;
+    color: rgb(56, 210, 205);
+    border: solid 2px rgb(56, 210, 205);
+    border-radius: 5px;
+    padding: 20px;
+
+
+    text-decoration: none;
+    transition: color 0.2s linear;
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    font-size: 30px;
+
+    height: 50vh;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.nav_link:hover{
+
+    color: white;
+}
+.tth{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: rgb(56, 210, 205);
+    text-decoration: #607788;
+    font-family: 'Kaushan Script', cursive;
+
+}

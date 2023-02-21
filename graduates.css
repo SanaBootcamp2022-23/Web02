@@ -1,0 +1,101 @@
+body {
+    margin: 0 auto;
+
+    justify-content: center;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.6;
+    background-color: rgba(159, 159, 159, 0.29);
+    font-family: "PT Serif";
+}
+
+.container {
+    display: grid;
+    flex-direction: column;
+
+    grid-template-columns: 1fr 3fr;
+    width: 90%;
+
+    margin: 0 auto;
+    background-color: white;
+    height: 50vh;
+}
+
+.USA_developer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    width: 100%;
+    max-width: 225px;
+    max-height: 250px;
+
+    padding: 100px;
+}
+
+.txt {
+    font-family: "PT Serif";
+    font-style: italic;
+    font-size: 16px;
+    color: #6e6e6e;
+    width: 340px;
+
+    line-height: 1.4;
+}
+
+.main_Text {
+    display: flex;
+    justify-content: center;
+
+    width: 350px;
+    height: 450px;
+    margin: 5px;
+
+}
+
+.open_quote {
+    height: 20px;
+    width: 20px;
+
+    background: url("img/quote.jpg") 0 0;
+}
+
+.closing_quote {
+    display: flex;
+    margin-left: 320px;
+    height: 20px;
+    width: 20px;
+    background: url("img/quote.jpg") 20px 0;
+}
+
+.dev {
+    color: #6e6e6e;
+    font-family: "PT Serif";
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+img {
+    align-self: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.main_text_container {
+    margin-top: 80px;
+}
+
+.name {
+    display: flex;
+    justify-content: right;
+    width: 300px;
+    padding-right: 10px;
+    font-size: 16px;
+    color: #6e6e6e;
+}
+
+
+
+
