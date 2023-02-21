@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+body main {
+  background: #fbfdfd;
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+body main video {
+  margin-left: calc(400px + 10%);
+  max-height: 100%;
+}
+@media screen and (max-width: 520px) {
+  body main video {
+    visibility: hidden;
+  }
+}
+@media screen and (max-height: 542px) {
+  body main video {
+    position: fixed;
+  }
+}
+body main section {
+  background: rgb(31, 31, 31);
+  position: absolute;
+  border-radius: 10px;
+  left: 10%;
+  right: 0;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  width: 400px;
+  display: grid;
+  padding: 1% 0.3%;
+  grid-template-rows: auto;
+  gap: 10px;
+  align-content: start;
+}
+@media screen and (max-width: 500px) {
+  body main section {
+    left: 0;
+    margin: 0.5% auto;
+  }
+}
+@media screen and (max-width: 400px) {
+  body main section {
+    width: 98.4%;
+    margin: 0.5% auto;
+    height: 800px;
+  }
+}
+@media screen and (max-height: 542px) {
+  body main section {
+    height: 520px;
+  }
+}
+body main section article {
+  display: grid;
+  width: 98%;
+  gap: 10px;
+  grid-template-columns: 1fr 2fr;
+}
+@media screen and (max-width: 400px) {
+  body main section article {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1px;
+    margin: 1%;
+  }
+  body main section article label {
+    text-align: left !important;
+  }
+}
+body main section article label {
+  color: #C04848;
+  text-align: right;
+}
+body main section article input, body main section article select {
+  border-radius: 2px;
+  border: 2px solid;
+  color: rgb(64, 64, 64);
+  padding: 1px;
+}
+body main section article input:focus, body main section article input:active, body main section article select:focus, body main section article select:active {
+  border-color: #1f4037;
+}
+body main section article:first-child input, body main section article:nth-child(4) input, body main section article:nth-child(5) input {
+  background: #ded37e;
+  border-color: #d2c34f;
+}
+body main section article:nth-child(2) input, body main section article:nth-child(3) input {
+  background: #d96d77;
+  border-color: #d1505c;
+}
+body main section article:nth-child(6) > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(32%, auto));
+  gap: 5px;
+}
+body main section article:nth-child(7) select {
+  background: #a17ae2;
+  border-color: #783fe1;
+}
+body main section article:nth-child(8) label {
+  margin: auto 0 auto auto;
+}
+@media screen and (max-width: 400px) {
+  body main section article:nth-child(8) label {
+    margin: 0;
+  }
+}
+body main section article:nth-child(8) textarea {
+  background: #82e581;
+  border: 2px solid #3fd73f;
+  border-radius: 2px;
+  resize: none;
+  height: 100px;
+  font-size: 12pt;
+  padding: 1px;
+}
+body main section article:nth-child(9) > label {
+  margin: auto 0 auto auto;
+}
+@media screen and (max-width: 400px) {
+  body main section article:nth-child(9) > label {
+    margin: 0;
+  }
+}
+body main section article:nth-child(9) div {
+  grid-template-rows: repeat(3, 1fr);
+  display: grid;
+  justify-items: start;
+}
+body main section article:nth-child(9) div label:nth-child(2) {
+  grid-row: 2/3;
+}
+body main section article:nth-child(9) div label:nth-child(3) {
+  grid-row: 3/4;
+}
+body main section article:nth-child(10) div {
+  grid-column: 2/3;
+  display: grid;
+  width: 70%;
+  gap: 10px;
+  grid-template-columns: 2fr 1fr;
+}
+body main section article:nth-child(10) div input {
+  border: 1.2px solid;
+}
+body main section article:nth-child(10) div input:first-child {
+  background: #82e581;
+  border-color: #3fd73f;
+  grid-column: 1/2;
+}
+body main section article:nth-child(10) div input:first-child:hover {
+  background: #aaecb0;
+}
+body main section article:nth-child(10) div input:nth-child(2) {
+  background: #d96d77;
+  border-color: #d1505c;
+  grid-column: 2/3;
+}
+body main section article:nth-child(10) div input:nth-child(2):hover {
+  background: #efb6bb;
+}
+body main section footer {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 96%;
+  background: rgb(64, 64, 64);
+  margin: 2%;
+  border-radius: 10px;
+  height: 40px;
+}
+body main section footer p {
+  color: #C04848;
+  position: absolute;
+  left: 10%;
+  height: auto;
+  margin: 3%;
+  display: block;
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=styleForm.css.map */

@@ -1,0 +1,232 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+
+  main {
+  background: $base-background-white-color;
+    height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+
+    video {
+      margin-left: calc(400px + 10%);
+      max-height: 100%;
+      @media screen and (max-width: 520px){
+        visibility: hidden;
+      }
+      @media screen and (max-height: 542px) {
+        position: fixed;
+      }
+    }
+
+    section {
+      background: $second-background-dark-color;
+      position: absolute;
+      border-radius: 10px;
+      left: 10%;
+      right: 0;
+      height: auto;
+      top: 0;
+      bottom: 0;
+      width: 400px;
+      display: grid;
+      padding: 1% 0.3%;
+      grid-template-rows: auto;
+      gap: 10px;
+
+      align-content: start;
+
+      @media screen and (max-width: 500px) {
+        left: 0;
+        margin: 0.5% auto;
+      }
+      @media screen and (max-width: 400px) {
+        width: 98.4%;
+        margin: 0.5% auto;
+        height: 800px;
+      }
+      @media screen and (max-height: 542px) {
+        height: 520px;
+      }
+
+
+      article {
+        display: grid;
+        width: 98%;
+        gap: 10px;
+
+        grid-template-columns: 1fr 2fr;
+        @media screen and (max-width: 400px) {
+          grid-template-columns: 1fr;
+          grid-template-rows: auto;
+          gap: 1px;
+          margin: 1%;
+          label {
+            text-align: left !important;
+          }
+        }
+
+        label {
+          color: $base-font-color;
+          text-align: right;
+
+        }
+
+        input, select{
+          border-radius: 2px;
+
+          border: 2px solid;
+          color: $base-font-dark-color;
+          padding: 1px;
+          &:focus,
+          &:active{
+            border-color: #1f4037;
+          }
+        }
+
+        &:first-child, &:nth-child(4), &:nth-child(5) {
+          input {
+            background: $yellow-background-color;
+            border-color: $yellow-border-color;
+          }
+        }
+
+        &:nth-child(2), &:nth-child(3) {
+          input {
+            background: $red-background-color;
+            border-color: $red-broder-color;
+          }
+        }
+
+        &:nth-child(6) {
+          > div {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(32%, auto));
+            gap: 5px;
+          }
+        }
+
+        &:nth-child(7) {
+          select {
+            background: $violet-background-color;
+            border-color: $violet-border-color;
+          }
+        }
+
+        &:nth-child(8) {
+          label {
+            margin: auto 0 auto auto;
+            @media screen and (max-width: 400px) {
+              margin: 0;
+            }
+          }
+
+          textarea {
+            background: $green-background-color;
+            border: 2px solid $green-border-color;
+            border-radius: 2px;
+            resize: none;
+            height: 100px;
+            font-size: 12pt;
+            padding: 1px;
+          }
+        }
+
+        &:nth-child(9) {
+          > label {
+            margin: auto 0 auto auto;
+            @media screen and (max-width: 400px) {
+              margin: 0;
+            }
+          }
+
+          div {
+            grid-template-rows: repeat(3, 1fr);
+            display: grid;
+            justify-items: start;
+
+            label {
+              &:nth-child(2) {
+                grid-row: 2/3;
+              }
+
+              &:nth-child(3) {
+                grid-row: 3/4;
+              }
+            }
+          }
+        }
+
+        &:nth-child(10) {
+
+
+          div {
+            grid-column: 2/3;
+            display: grid;
+            width: 70%;
+            gap: 10px;
+            grid-template-columns: 2fr 1fr;
+
+            input {
+              border: 1.2px solid;
+
+              &:first-child {
+                background: $green-background-color;
+                border-color: $green-border-color;
+                grid-column: 1/2;
+
+                &:hover {
+                  background: $green-background-hover;
+                }
+              }
+
+              &:nth-child(2) {
+                background: $red-background-color;
+                border-color: $red-broder-color;
+                grid-column: 2/3;
+
+                &:hover {
+                  background: $red-background-hover;
+                }
+              }
+
+            }
+          }
+        }
+      }
+
+      footer {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 96%;
+        background: $third-background-dark-color;
+        margin: 2%;
+        border-radius: 10px;
+        height: 40px;
+
+        p {
+          color: $base-font-color;
+          position: absolute;
+          left: 10%;
+          height: auto;
+          margin: 3%;
+          display: block;
+          vertical-align: middle;
+        }
+      }
+
+    }
+
+
+  }
+
+}
+
+
