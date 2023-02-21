@@ -1,0 +1,76 @@
+.graduates{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.graduates>div{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+    width: 700px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(97, 96, 96);
+
+}
+
+.item__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    width: 35%;
+
+    padding: 20px;
+}
+
+.item__info :first-child{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.item__info :last-child{
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.item__quote{
+    width: 70%;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.item__quote :last-child{
+    width: 100%;
+    text-align: end;
+
+    margin: 10px 0;
+}
+
+.item__quote :first-child{
+    position: relative;
+}
+
+.item__quote :first-child :first-child,
+.item__quote :first-child :last-child{
+    height: 10px;
+    position: absolute;
+    font-size: 50px;
+
+    color: rgba(128, 128, 128, 0.596);
+}
+
+.item__quote :first-child :first-child{
+    left: -40px;
+    top: -20px;
+}
+
+.item__quote :first-child :last-child{
+    right: -40px;
+    bottom: -35px;
+}
