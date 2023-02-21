@@ -1,0 +1,59 @@
+main {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.graduate-info {
+    display: flex;
+    margin: 20px 0;
+}
+
+.photo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.quote {
+    width: 70%;
+    padding-left: 30px;
+}
+
+.photo>figure>img {
+    width: 100%;
+    background: lightsteelblue;
+    border-radius: 50%;
+}
+
+.quote-text {
+    font-style: italic;
+}
+
+.quote-text::before, .quote-text::after {
+    font-size: 36px;
+    line-height: 0%;
+    color: lightslategray;
+    font-weight: bold;
+}
+
+.quote-text::before {
+    content: "\“";
+
+}
+
+.quote-text::after {
+    content: "\„";
+}
+
+.quote-sign {
+    text-align: right;
+}
+
+.quote-sign::before {
+    content: "−"
+}
+
+.photo>figure>figcaption {
+    text-align: center;
+    font-size: 12px;
+}

@@ -1,0 +1,85 @@
+form {
+  border: 2px solid gray;
+  background-color: rgb(231, 231, 231);
+  display: inline-block;
+  padding: 20px;
+}
+
+form div {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 6px 0;
+}
+
+form input {
+  height: 24px;
+  border-radius: 3px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+form select {
+  height: 28px;
+  width: 100%;
+  border: 2px solid rgb(65, 65, 255);
+  background-color: cornflowerblue;
+  border-radius: 3px;
+}
+
+form>div>label {
+  font-weight: bold;
+  display: inline-block;
+  min-width: 120px;
+  text-align: right;
+  margin-right: 4px;
+}
+
+form textarea {
+  resize: none;
+  width: 100%;
+  border: 2px solid green;
+  background-color: rgb(196, 255, 196);
+  border-radius: 3px;
+}
+
+input[type="email"] {
+  background-color: rgb(255, 255, 173);
+  border-color: rgb(219, 219, 0);
+  width: 100%;
+}
+
+input[type="text"] {
+  background-color: rgb(255, 255, 173);
+  border-color: rgb(219, 219, 0);
+  width: 100%;
+}
+
+input[type="password"] {
+  background-color: rgb(255, 167, 208);
+  border-color: rgb(196, 34, 161);
+  width: 100%;
+}
+
+.control-column {
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.control-row {
+  display: flex;
+  flex-direction: row;
+}
+
+form>div button {
+  margin: 0 auto;
+  min-width: 150px;
+}
+
+form>div button[type="submit"] {
+  background-color: rgb(196, 255, 196);
+}
+
+form>div button[type="reset"] {
+  background-color: rgb(255, 167, 208);
+}
