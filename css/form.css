@@ -1,0 +1,64 @@
+/*FOR FORM DOCUMENT*/
+form{
+    width: 400px;
+    padding: 10px;
+
+    background-color: rgba(128, 128, 128, 0.219);
+    border: 2px solid rgba(128, 128, 128, 0.568);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    width: 200px;
+    height: 25px;
+}
+
+input[type="text"], input[type="email"]{
+    background-color: rgba(255, 255, 0, 0.295);
+    border: 2px solid rgb(230, 188, 111);
+}
+
+input[type="password"]{
+    background-color: rgba(238, 130, 238, 0.473);
+    border: 2px solid rgb(194, 34, 194);
+}
+
+select{
+    width: 208px;
+    padding: 4px 2px;
+    font-size: 15px;
+
+    background-color: rgba(0, 0, 255, 0.425);
+    border: 2px solid rgb(20, 20, 139);
+}
+
+textarea{
+    background-color: rgba(0, 255, 0, 0.281);
+    border: 2px solid green;
+}
+
+input[type="submit"]{
+    background-color: rgba(27, 221, 27, 0.623);
+    border: 1px solid gray;
+}
+
+button{
+    background-color: rgba(212, 46, 46, 0.658);
+    border: 1px solid gray;
+}
+
+th:first-child label {
+    font-weight: 700;
+}
+
+th:first-child {
+    text-align: end;
+}
+
+th:last-child{
+    text-align: start;
+    font-weight: 300;
+}
+
+/*FOR FORM DOCUMENT*/

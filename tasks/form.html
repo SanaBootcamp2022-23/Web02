@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/form.css">
+    <title>Form</title>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <th><label for="email">Email: </label></th>
+            <th><input type="email" id="email"></th>
+        </tr>
+        <tr>
+            <th><label for="password">Пароль: </label></th>
+            <th><input type="password" id="password"></th>
+        </tr>
+        <tr>
+            <th><label for="password1">Повторіть пароль: </label></th>
+            <th><input type="password" id="password1"></th>
+        </tr>
+        <tr>
+            <th><label for="name">Ім'я: </label></th>
+            <th><input type="text" id="name"></th>
+        </tr>
+        <tr>
+            <th><label for="surname">Прізвище: </label></th>
+            <th><input type="text" id="surname"></th>
+        </tr>
+        <tr>
+            <th><label>Стать: </label></th>
+            <th>
+                <label><input type="radio" name="gender" value="M">чоловік</label>
+                <label><input type="radio" name="gender" value="W">жінка</label>
+            </th>
+        <tr>
+            <th>
+                <label for="city">Місто: </label>
+            </th>
+            <th>
+                <select id="city">
+                    <option value="kv">Київ</option>
+                    <option value="zt" selected>Житомир</option>
+                    <option value="sm">Суми</option>
+                    <option value="pt">Полтава</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label for="about">Про себе: </label>
+            </th>
+            <th>
+                <textarea id="about" cols="25" rows="7"></textarea>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <label>Згода: </label>
+            </th>
+            <th>
+                <div><input type="checkbox" id="terms_first"><label for="terms_first">Отримувати розсилку сайту</label></div>
+                <div><input type="checkbox" id="terms_second"><label for="terms_second">Погоджуюсь із правилами сайту</label></div>
+                <div><input type="checkbox" id="terms_third"><label for="terms_third">Сховати профіль на сайті</label></div>
+            </th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>
+                <input type="submit" value="Зареєструватися">
+                <button>Скинути</button>
+            </th>
+
+        </tr>
+    </table>
+</form>
+</body>
+</html>
