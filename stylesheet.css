@@ -23,9 +23,13 @@ article {
     color: #877160;
 }
 .nav > li > a {
+    font-size: 20px;
     float: left;
-    padding: 16px;
+    padding: 20px;
+    margin: 10px;
     text-decoration: none;
+    outline: #B0C7D8 solid;
+    border-radius: 5%;
 }
 a:hover {
     background-color: #607788;
