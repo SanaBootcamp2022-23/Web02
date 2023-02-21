@@ -1,0 +1,47 @@
+@import "variables";
+
+body {
+  background: $base-background-dark-color;
+
+  main {
+
+    nav {
+      width: 90%;
+      margin: 10px auto;
+      box-sizing: border-box;
+      border-radius: 15px;
+      height: auto;
+      background: $second-background-dark-color;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      @media screen and (max-width: 600px) {
+        height: auto;
+        gap: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+      }
+
+      div {
+        text-align: center;
+        margin: 10px;
+        background: $third-background-dark-color;
+
+        a {
+          color: $base-font-color;
+          text-decoration: none;
+          font-size: 20pt;
+          display: inline-block;
+          height: 40px;
+          line-height: 40px;
+          width: 100%;
+        }
+
+        &:hover {
+          background: $green-background-hover;
+        }
+
+      }
+    }
+  }
+}
