@@ -1,6 +1,7 @@
 header{
     display: flex;
     justify-content: center;
+    margin: 25px 0 50px;
 }
 header > nav > .nav{
     display: flex;
