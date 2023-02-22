@@ -1,0 +1,42 @@
+form{
+    display: table;
+}
+form div{
+    display: table-row;
+}
+form label, input, button{
+    display: table-cell;
+}
+
+form label {
+    text-align: right;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+form button{
+    margin-left: 10px;
+}
+
+form input[type="email"], input[type="text"]{
+    background-color: yellow;
+    outline: solid yellow;
+}
+form input[type="password"] {
+    background-color: palevioletred;
+    outline: solid red;
+}
+form textarea{
+    background-color: greenyellow;
+    outline: solid green;
+}
+
+button:nth-of-type(1)
+{
+    background-color: greenyellow;
+    outline: solid green;
+}
+button:nth-of-type(2)
+{
+    background-color: palevioletred;
+    outline: solid red;
+}
