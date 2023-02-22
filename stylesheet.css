@@ -1,9 +1,32 @@
 .graduates {
-    background-color: beige;
-    font-family: "Calisto MT";
-    font-size: 22px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    font-family: "Helvetica";
     font-style: italic;
-    color: grey;
+    font-size: 22px;
+    background-size: 200% 200%;
+    animation: gradient 3s ease infinite;
+    color: white;
+    margin: 0;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.graduates > h2 {
+    background-color: darkblue;
+    text-decoration: underline;
+    transition: font-size 1s, background-color 1s;
+}
+.graduates > h2:hover {
+    font-size: 35px;
+    background-color: mediumslateblue;
 }
 section {
     display: flex;
@@ -71,4 +94,26 @@ button {
 }
 button + button {
     background-color: lightcoral;
+}
+img {
+  border-radius: 50%;
+    transition: border-radius 1s;
+    box-shadow: 0 0 30px 15px #fff;
+}
+img:hover {
+    border-radius: 25%;
+}
+.endpic {
+    box-shadow: none;
+    border-radius: 0;
+}
+.endpic:hover {
+    border-radius: 0;
+}
+.endtitle {
+    text-align: right;
+    background: linear-gradient(-20deg, black, grey, tomato);
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-bottom: 0;
 }
