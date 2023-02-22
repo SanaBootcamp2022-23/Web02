@@ -1,0 +1,46 @@
+div.quote_block
+{
+    justify-content: center;
+    display: flex;
+    font-family: Arial;
+    font-size: 14px;
+}
+.quote_block blockquote > figcaption
+{
+    text-align: end;
+}
+div[class = "quote_block"] > figure
+{
+    width: 20%;
+}
+div.image-name
+{
+    width: 250px;
+
+}
+.image-name img
+{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 90px;
+}
+.image-name figcaption > p
+{
+    text-align: center;
+}
+span.quo
+{
+    font-size: 50px;
+    color: #888686;
+}
+ blockquote ~ span.quo
+{
+    font-size: 50px;
+    color: #888686;
+    margin-left: 100%;
+}
+.quote_block blockquote
+{
+    width: fit-content;
+}

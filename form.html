@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+ <link rel="stylesheet" href="style-form.css">
+</head>
+<body>
+<form>
+  <table>
+  <tr>
+      <td><label>E-mail:</label></td>
+      <td><input type="email"></td>
+  </tr>
+    <tr>
+      <td><label>Пароль: </label></td>
+      <td><input type="password"></td>
+    </tr>
+  <tr>
+    <td><label>Повторіть пароль:</label></td>
+    <td><input type="password"></td>
+  </tr>
+ <tr>
+   <td><label>Ім'я:</label></td>
+   <td><input type="text"></td>
+ </tr>
+  <tr>
+    <td><label>Фамілія:</label></td>
+    <td><input type="text"></td>
+  </tr>
+  <tr>
+    <td><label>Стать:</label></td>
+    <td>
+      <label><input name="gender" type="radio">Жіноча</label>
+      <label><input name="gender" type="radio">Чоловіча</label>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <label> Місто:</label>
+    </td>
+    <td>
+      <select>
+        <option>Житомир</option>
+        <option>Київ</option>
+        <option>Львів</option>
+        <option>Харків</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td><label>Про себе: </label></td>
+    <td><textarea></textarea></td>
+  </tr>
+    <tr>
+      <td><label>Домовленності:</label></td>
+      <td>
+      <div><label><input type="checkbox">Отримувати розсилки сайту</label></div>
+      <div><label><input type="checkbox">Погоджуюсь з правилами сайту</label></div>
+      <div><label><input type="checkbox">Сховати профіль на сайті</label></div>
+      </td>
+    <tr>
+      <td></td>
+      <td>
+          <input type="submit" value="Зареєструватися">
+          <input type="reset" value="Скидання">
+      </td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
