@@ -1,0 +1,32 @@
+ul.nav
+{
+    display: flex;
+    justify-content: center;
+}
+.nav > li
+{
+    display: block;
+    margin: 20px;
+    flex-basis: 75px;
+    border: 2px solid #B0C7D8;
+    border-radius: 5px;
+    height: 45px;
+
+}
+.nav li:hover
+{
+    background-color: #607788;
+}
+.nav a
+{
+    line-height: 250%;
+    text-align: center;
+    display:block;
+    height: 100%;
+    color: #877160;
+    text-decoration: none;
+}
+.nav a:hover
+{
+    color: white;
+}
