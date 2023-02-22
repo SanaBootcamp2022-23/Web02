@@ -1,0 +1,48 @@
+.graduates{
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.graduates__item {
+    display: flex;
+}
+.graduates__item:not(:last-child){
+    margin-bottom:50px;
+}
+.graduates__image{
+    text-align: center;
+}
+.graduates__img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.graduates__quote{
+    position: relative;
+    padding: 0px 40px;
+}
+blockquote::before,
+blockquote::after {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+blockquote::before {
+    content: "";
+    background-image: url("/Web02/img/quote-left.svg");
+    left: 0;
+}
+blockquote::after {
+    content: "";
+    background-image: url("/Web02/img/quote-right.svg");
+    right: 0;
+}
+blockquote > p:first-child,
+img + p{
+    font-style: italic;
+}
+blockquote > p + p {
+    text-align: right;
+    margin-bottom: 0;
+}
