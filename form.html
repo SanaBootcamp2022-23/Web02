@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/menu.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="nav">
+            <li>
+                <a href="index.html">Головна</a>
+            </li>
+            <li>
+                <a href="#">Форма</a>
+            </li>
+            <li>
+                <a href="menu.html">Меню</a>
+            </li>
+            <li>
+                <a href="graduates.html">Випускники</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <form>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="admin" required>
+        </div>
+        <div>
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" placeholder="" required>
+        </div>
+        <div>
+            <label for="confirm_password">Пароль ще раз:</label>
+            <input type="password" id="confirm_password" name="confirm_password" placeholder="" required>
+        </div>
+        <div>
+            <label for="first_name">Ім'я:</label>
+            <input type="text" id="first_name" name="first_name" required>
+        </div>
+        <div>
+            <label for="last_name">Прізвище:</label>
+            <input type="text" id="last_name" name="last_name" required>
+        </div>
+        <div>
+            <label>Стать:</label>
+            <div style="display: flex; align-items: center;">
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Чоловіча</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Жіноча</label>
+            </div>
+        </div>
+        <div>
+            <label for="city">Місто:</label>
+            <select id="city" name="city" required>
+                <option value="Київ">Житомир</option>
+                <option value="Київ">Київ</option>
+                <option value="Харків">Харків</option>
+                <option value="Одеса">Одеса</option>
+                <option value="Львів">Львів</option>
+                <option value="Дніпро">Дніпро</option>
+                <option value="Запоріжжя">Запоріжжя</option>
+            </select>
+        </div>
+        <div>
+            <label for="about_me">Про себе:</label>
+            <textarea id="about_me" name="about_me"></textarea>
+        </div>
+        <div>
+            <label>Згода:</label>
+            <div style="display: flex; flex-direction: column;">
+                <div style="display: flex">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="1">
+                    <label for="newsletter">Отримати розсилку сайту</label>
+                </div>
+                <div style="display: flex">
+                    <input type="checkbox" id="agree" name="agree" value="1" required>
+                    <label for="agree">Погоджуюсь з правилами сайту</label>
+                </div>
+                <div style="display: flex">
+                    <input type="checkbox" id="hide_profile" name="hide_profile" value="1">
+                    <label for="hide_profile">Сховати мій профіль на сайті</label>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button type="submit" value="Зареєструватися">Зареєструвати</button>
+            <button type="reset" value="Скинути">Скинути</button>
+        </div>
+    </form>
+</main>
+</body>
+</html>

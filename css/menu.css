@@ -1,0 +1,24 @@
+header{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 50px;
+}
+header > nav > .nav{
+    display: flex;
+    gap: 25px;
+}
+header > nav > .nav > li{
+    list-style-type: none;
+}
+
+header > nav > .nav > li > a{
+    border: 2px solid #B0C7D8;
+    border-radius: 5px;
+    color: #877160;
+    padding: 15px;
+    text-decoration: none;
+}
+header > nav > .nav > li > a:hover{
+    background: #607788;
+    color: #ffffff;
+}
