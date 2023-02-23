@@ -1,0 +1,42 @@
+form {
+    width: 300px;
+    height: auto;
+    background: lightgray;
+    border: 5px black;
+    position: center;
+
+}
+button[name="register"]{
+    background: green;
+    color: white;
+}
+button[name="exit"]{
+    background: red;
+    color: white;
+}
+input[name="email"]{
+    background: yellowgreen;
+}
+input[name="password"]{
+    background: pink;
+}
+input[name="password2"]{
+    background: pink;
+}
+input[name="name"]{
+    background: yellowgreen;
+}
+input[name="surname"]{
+    background: yellow;
+}
+input[name="city"]{
+    background:mediumpurple;
+}
+input[name="about_me"]{
+    background: lightgreen;
+    width: 200px;
+    height: 100px;
+}
+input{
+    display:flex;
+}

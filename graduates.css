@@ -1,0 +1,22 @@
+.img1 img{
+    border-radius: 100%;
+}
+.img1{
+    display: inline-block;
+}
+.img1 h3{
+    display: inline-block;
+}
+.img2 img{
+    border-radius: 100%;
+}
+.img1 h4{
+    float: bottom;
+}
+.img2 h3{
+
+    display: inline-block;
+}
+.img2 h4{
+    float: bottom;
+}
