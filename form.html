@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>E-mail:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Пароль:</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td>Пароль ще раз:</td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td>Ім'я:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Прізвище:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Стать:</td>
+            <td style="text-align: start;"><input type="radio" name="gender"><span>чоловік</span>
+                <input type="radio" name="gender"><span>жінка</span>
+            </td>
+        </tr>
+        <tr>
+            <td>Місто:</td>
+            <td><select>
+                <option>Житомир</option>
+                <option>Вінниця</option>
+                <option>Київ</option>
+                <option>Полтава</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Про себе:</td>
+            <td>
+                <textarea style="resize: none; width: 100%;" rows = "5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>Згоди:</td>
+            <td style="text-align: start;">
+                <input type="checkbox" name="deal"><span>Отримувати розсилки сайту</span><br>
+                <input type="checkbox" name="deal"><span>Погоджуюсь з правилами сайту</span><br>
+                <input type="checkbox" name="deal"><span>Скрити профіль на сайті</span>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td style="text-align: start;">
+                <button>Зареєструватися</button>
+                <button name="reset">Скинути</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
