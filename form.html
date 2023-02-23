@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+
+<div>
+    <form action="">
+        <label><b>E-mail:</b></label>
+        <input type="email"  name="email" required>
+
+        <label><b>Пароль:</b></label>
+        <input type="password"  name="password" required>
+
+        <label ><b>Пароль ще раз:</b></label>
+        <input type="password" name="confirm_password" required>
+
+        <label ><b>Ім'я:</b></label>
+        <input type="text"  name="first_name" required>
+
+        <label ><b>Прізвище:</b></label>
+        <input type="text"  name="last_name" required>
+
+        <label><b>Стать:</b></label>
+        <div>
+            <input type="radio" name = "Gender">
+            <label>Чоловіча</label>
+            <input type="radio" name = "Gender">
+            <label>Жіноча:</label>
+        </div>
+
+        <label ><b>Місто:</b></label>
+        <input list="city"  name="city" required>
+        <datalist id="city">
+            <option value="Житомир"></option>
+            <option value="Київ"></option>
+            <option value="Вінниця"></option>
+            <option value="Полтава"></option>
+            <option value="Харків"></option>
+            <option value="Коростень"></option>
+            <option value="Сімферополь"></option>
+        </datalist>
+
+        <label ><b>Про себе:</b></label>
+        <textarea  name="about_me"></textarea>
+
+        <label>Погодження:</label>
+        <div type="check">
+            <input type="checkbox">
+            <label name="checkbox_ag">Отримувати пошту</label>
+            <input type="checkbox">
+            <label name="checkbox_ag">Погодитись з правилами сайту</label>
+            <input type="checkbox">
+            <label name="checkbox_ag">Сховати профіль на сайті</label>
+        </div>
+            <input type="submit" value="Зареєструватися">
+            <input type="reset" value="Скасувати">
+
+    </form>
+</div>
+</body>
+</html>

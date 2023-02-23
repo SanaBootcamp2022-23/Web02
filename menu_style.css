@@ -1,0 +1,27 @@
+.nav_link{
+    vertical-align: top;
+    margin: 0 30px;
+    position: relative;
+    color: #877160;
+    border: solid 2px #B0C7D8;
+    border-radius: 5px;
+    padding: 20px;
+    text-decoration: none;
+    transition: color 0.2s linear;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.nav_link:hover{
+    background-color: #607788;
+    color: white;
+}

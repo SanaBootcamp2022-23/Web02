@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333333;
+}
+
+body > div{
+    width: 100%;
+    max-width: 350px;
+    margin: 100px auto;
+    border: solid #bdbdbd;
+}
+
+
+label{
+    align-self: center;
+}
+
+b{
+    font-size: 15px;
+}
+
+input{
+    align-self: center;
+    height: 30px;
+    margin: 5px;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: right;
+    text-align: right;
+    margin: 5px 30px 10px 30px;
+    align-items: center;
+}
+
+[type = "text"]{
+    background-color: #feffb3;
+    border: solid 2px #a1a258;
+}
+
+[name = "email"]{
+    background-color: #feffb3;
+    border: solid 2px #a1a258;
+}
+
+[type = "password"]{
+    background-color: #fac2ec;
+    border: solid 2px #7f2b5c;
+}
+fieldset{
+    border: none;
+}
+form > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+[name = "about_me"]{
+    max-width: 242px;
+    margin-left: 5px;
+    max-height: 75px;
+    border: solid rgb(17, 80, 17) 2px;
+    background-color: rgba(127, 255, 0, 0.47);
+}
+
+[type = "check"]{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+[type = "checkbox"]{
+    max-height: 15px;
+    max-width: 15px;
+}
+
+[name="checkbox_ag"]{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+
+[type="submit"]{
+    width: 100%;
+    max-width: 150px;
+    border: solid rgba(27, 152, 27, 0.16) 2px;
+    background-color: rgba(127, 255, 0, 0.47);
+    font-weight: 700;
+    margin-left: 30px;
+
+}
+[type="reset"]{
+    width: 100%;
+    max-width: 80px;
+    border: solid rgba(255, 0, 0, 0.16) 2px;
+    background-color: rgba(238, 35, 35, 0.63);
+    margin-left: 30px;
+
+}
+
+[list="city"]{
+    border: solid rgb(36, 34, 93) 2px;
+    background-color: rgba(61, 52, 204, 0.47);
+}
