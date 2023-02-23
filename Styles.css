@@ -1,0 +1,148 @@
+form div {
+    margin-top:5px;
+    margin-bot: 5px;
+    align-items: center;
+    justify-content: center;
+}
+form div input{
+    margin-left: 5px;
+    border: 1px solid #0072ff;
+}
+form textarea {
+    margin-left: 5px;
+}
+form select{
+    margin-left: 5px;
+}
+
+form {
+    position: absolute;
+    top: 25%;
+    left: 42%;
+}
+form div label {
+    display: block;
+    float: left;
+    width: 70px;
+    height: 15px;
+    text-align: right;
+
+}
+form table {
+    position: relative;
+    left: -18px;
+    font-size: 13px;
+
+}
+form table p {
+    font-size: 16px;
+}
+form div button {
+    position:relative;
+    left: 75px;
+}
+form table label {
+    font-size: 16px;
+}
+form textarea {
+    width: 180px;
+}
+form button[type=submit] {
+    background-color: #00ff09
+}
+form button[type=reset] {
+    background-color: #ff5400
+}
+
+.nav {
+    list-style-type: none;
+
+}
+
+ul {
+    width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav li {
+    display: inline;
+}
+.nav a {
+    color: black;
+    padding: 10px 20px;
+    border: #B0C7D8 solid 2px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none
+}
+
+ul a:hover {
+    background: #607788;
+    color:white;
+}
+.graduate {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 30px 30px 45px;
+    margin:10px;
+    font-style: oblique;
+    width: 700px;
+}
+.graduate img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.person1 {
+    position:absolute;
+    margin-top: 95px;
+    margin-left: 460px;
+    font-size: 18px;
+}
+.person2 {
+    position:absolute;
+    margin-top: 60px;
+    margin-left: 400px;
+    font-size: 18px;
+    font-style: oblique;
+}
+.position1 {
+    position:relative;
+    top: 85px;
+    right: 110px;
+    font-size: 13px;
+}
+.position2 {
+    position:relative;
+    top: 85px;
+    right: 102px;
+    font-size: 13px;
+}
+.nav1 {
+    list-style-type: none;
+}
+.nav1 ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 290px;
+}
+
+.nav1 li {
+    display: inline;
+}
+.nav1 a {
+    color: black;
+    padding: 10px 20px;
+    border: #B0C7D8 solid 2px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none
+}
+
+.nav1 ul a:hover {
+    background: #607788;
+    color: white;
+}
