@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Форма</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/form.css" />
+  </head>
+
+  <body>
+    <form method="post" autocomplete="on">
+      <label for="email">E-mail:</label>
+      <input required type="email" name="email" id="email" />
+
+      <label for="password">Пароль:</label>
+      <input required type="password" name="password" id="password" />
+
+      <label for="passwordrepeat">Повторіть пароль:</label>
+      <input type="password" name="passwordrepeat" id="passwordrepeat" />
+
+      <label for="firstname">Ім'я:</label>
+      <input type="text" name="firstname" id="firstname" />
+
+      <label for="lastname">Прізвище:</label>
+      <input type="text" name="lastname" id="lastname" />
+
+      <label for="sex">Стать:</label>
+      <div id="sex">
+        <input type="radio" name="sex" value="m" id="sexm" />
+        <label for="sexm">чоловіча</label>
+
+        <input type="radio" name="sex" value="f" id="sexf" />
+        <label for="sexf">жіноча</label>
+      </div>
+
+      <label for="city">Місто:</label>
+      <select name="city" id="city">
+        <option value="zhytomyr" selected>Житомир</option>
+        <option value="kyiv">Київ</option>
+        <option value="lviv">Львів</option>
+        <option value="odesa">Одеса</option>
+        <option value="kharkiv">Харків</option>
+        <option value="kherson">Херсон</option>
+        <option value="other">Інше...</option>
+      </select>
+
+      <label for="about">Про себе:</label>
+      <textarea name="about" id="about" rows="5"></textarea>
+
+      <label for="agreements">Погодження:</label>
+      <div id="agreements">
+        <input type="checkbox" name="email-subscribe" id="emailsubscribe" />
+        <label for="emailsubscribe">Отримувати розсилку</label>
+
+        <input required type="checkbox" name="terms-of-service" id="tos" />
+        <label for="tos">Погоджуюсь з правилами сайту</label>
+
+        <input type="checkbox" name="hide-profile" id="hideprofile" />
+        <label for="hideprofile">Приховати профіль на сайті</label>
+      </div>
+
+      <div>
+        <button type="submit">Зареєструватися</button>
+        <button type="reset">Очистити</button>
+      </div>
+    </form>
+  </body>
+</html>
