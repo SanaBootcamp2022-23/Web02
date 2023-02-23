@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Форма</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<style>
+  * {
+    font-family: Helvetica;
+    font-size: 15px;
+    margin: 7px;
+      background-color: lightgray;
+  }
+  input {
+   border: 0;
+  }
+  label {
+      text-align: right;
+      width: 100%;
+  }
+</style>
+<body>
+    <form>
+    <table>
+      <tr>
+        <td><label>e-mail:</label></td>
+        <td><input required></td>
+      </tr>
+        <tr>
+            <td><label>Пароль:</label></td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td><label>Пароль ще раз:</label></td>
+            <td><input type="password"></td>
+        </tr>
+      <tr>
+          <td><label>Ім'я:</label></td>
+        <td><input required></td>
+      </tr>
+      <tr>
+          <td><label>Прізвище:</label></td>
+        <td><input required></td>
+      </tr>
+        <tr>
+            <td><label>Стать:</label></td>
+            <td><input type="radio" id="m" name="man" value="man" required><label for="m">чоловіча</label><input type="radio" id="w" name="woman" value="woman"><label for="w">жіноча</label></td>
+        </tr>
+        <tr>
+            <td><label>Місто:</label></td>
+            <td><select name="city">
+                <option value="zhytomyr">Житомир</option>
+                <option value="kyiv">Київ</option>
+                <option value="ryvne">Рівне</option>
+                <option value="vinnytsya">Вінниця</option>
+                <option value="poltava">Полтава</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label>Про себе:</label></td>
+            <td><textarea rows="9"></textarea></td>
+        </tr>
+        <tr>
+            <td><label>Угоди</label></td>
+            <td><input type="checkbox" id="subscription" name="subscription" value="email"><label for="subscription">Підписатися на розсилку сайту</label><br><input type="checkbox" id="agree" name="agree" value="yes"><label for="agree">Погодитися з правилами сайту</label><br><input type="checkbox" id="hide" name="hide" value="hidden"><label for="hide">Сховати профіль на сайті</label></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="submit">Передати</button> <button type="reset">Скидування</button></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
