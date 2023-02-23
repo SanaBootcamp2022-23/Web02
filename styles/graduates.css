@@ -1,0 +1,75 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.graduates {
+  padding: 50px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.graduate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.graduate .author {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.author p {
+  max-width: 230px;
+  padding: 5px;
+  text-align: center;
+}
+
+.author img {
+  border-radius: 50%;
+  border: 0.5px solid lightgray;
+  margin: auto;
+}
+
+.quote figure {
+  position: relative;
+  min-width: 150px;
+}
+
+.quote figcaption {
+  padding-top: 25px;
+  float: right;
+}
+
+.quote figure div:first-child,
+.quote figure div:last-child {
+  font-size: 40px;
+  position: absolute;
+  font-style: italic;
+  font-weight: bold;
+  color: lightgrey;
+}
+
+.quote figure div:first-child {
+  left: -40px;
+  top: -25px;
+}
+
+.quote figure div:last-child {
+  right: -40px;
+  padding-top: 25px;
+}
+
+@media (min-width: 600px) {
+  .graduate {
+    flex-direction: row;
+    align-items: stretch;
+    gap: 50px;
+  }
+  .quote figure {
+    width: 300px;
+  }
+}
