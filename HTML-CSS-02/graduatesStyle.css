@@ -1,0 +1,13 @@
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+figcaption{
+    text-align: end;
+    font-size: 20px;
+}
+
+figcaption > cite{
+    font-size: 30px;
+}
