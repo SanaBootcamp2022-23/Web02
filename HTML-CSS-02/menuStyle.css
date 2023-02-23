@@ -1,0 +1,23 @@
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+li{
+    border: 2px solid #B0C7D8;
+    border-radius: 4px;
+    padding: 7px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    color: #877160;
+}
+li:hover a{
+    background-color: #607788;
+    color: white;
+}
+li:hover{
+    background-color: #607788;
+}
