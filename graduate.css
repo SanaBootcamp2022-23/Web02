@@ -1,0 +1,66 @@
+.midorriya
+{
+    margin-left: 560px;;
+    height: 250px;
+    width: 250px;
+    border-radius:180px;
+}
+
+.shigaraki
+{
+    margin-left: 560px;;
+    height: 250px;
+    width: 250px;
+    border-radius:180px;
+}
+body
+{
+    background-color: khaki;
+}
+.background
+{
+    display: grid;
+    grid-template-rows: 1fr 20px 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vw;
+    margin-top: 50px;
+
+}
+.person
+{
+    text-align: right;
+}
+.under_image
+{
+    margin-right: 0px;
+    font-family: "Lucida Console";
+    margin-left: 500px;;
+}
+.text
+{
+    margin-right: 200px;
+    font-family: "Lucida Console";
+}
+blockquote {
+    position: relative;
+}
+
+blockquote:before {
+    position: absolute;
+    content: open-quote;
+    font-size: 4em;
+    margin-left: -0.6em;
+    margin-top: -0.4em;
+}
+blockquote:after {
+    position: absolute;
+    content: close-quote;
+    font-size: 4em;
+    bottom: 0;
+    right: 0;
+    margin-right: -0.6em;
+    margin-bottom: -0.8em;
+}
+blockquote p {
+    display: inline;
+}
