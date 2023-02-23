@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../form.css">
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <table>
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <div>
+                        <input type="text" name="email" placeholder="admin">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Пароль:</td>
+                <td>
+                    <div>
+                        <input type="password" name="password" placeholder="***">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Пароль ще раз:</td>
+                <td>
+                    <div>
+                        <input type="password" name="repassword" placeholder="***">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Ім'я</td>
+                <td>
+                    <div>
+                        <input type="text" name="name" placeholder="" style="">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Фамілія</td>
+                <td>
+                    <div>
+                        <input type="text" name="surname" placeholder="" style="">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Гендер:</td>
+                <td>
+                    <div>
+                        <label>
+                            <input type="radio" name="gender" value="m" /> чоловік
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="f" /> жінка
+                        </label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>Місто:</td>
+                <td>
+                        <select type="text" name="cities" style="width: 248px; height:35px">
+                            <option value="KV">Київ</option>
+                            <option value="ZT" selected="selected">Житомир</option>
+                            <option value="HV">Харків</option>
+                            <option value="PT">Полтава</option>
+                        </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Про себе:</td>
+                <td>
+                    <textarea name="info" id="info"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>Погоджуюсь:</td>
+                <td>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="lang[]" value="getmail" /> Отримувати розсилку сайту
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="lang[]" value="rightrules" /> Згоден із правилами сайту
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="lang[]" value="hideprofile" /> Приховати профіль на сайті
+                        </label>
+                    </div>
+                </td>
+            </tr>
+        </table>
+                    <div style="text-align: center; margin: 10px">
+                        <input type="submit" value="Реєстрація" />
+                        <input type="reset" value="Заново" />
+                    </div>
+    </form>
+</body>
+</html>
