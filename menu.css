@@ -1,0 +1,31 @@
+.nav{
+
+    border-color: #B0C7D8;
+    position: absolute;
+}
+ul{
+    text-align: center;
+    border-color: #B0C7D8;
+}
+p{
+    color: #877160;
+}
+li{
+
+    margin: 50px;
+    text-align: center;
+    border-color: #B0C7D8;
+    display: inline-block;
+}
+li:hover{
+    background-color: #607788;
+
+}
+li a{
+    color: #877160;
+    border-color: #B0C7D8;
+}
+a{
+    border: #B0C7D8;
+    border: 5px;
+}
