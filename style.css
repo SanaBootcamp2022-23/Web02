@@ -1,0 +1,70 @@
+
+fieldset{
+    width: 60%;
+}
+fieldset > div div{
+    float: left;
+    text-align: right;
+    width: 150px;
+}
+fieldset > div{
+   margin: 10px 0;
+}
+fieldset div input[type="text"],fieldset div input[type="email"]
+{
+    background-color: #bdbb2e;
+    border: 1px solid #888621;
+    width: 150px;
+
+}
+fieldset div input[type="password"]
+{
+    background-color: #fea8ff;
+    border: 2px solid #513552;
+    width: 150px;
+
+}
+fieldset div select
+{
+    width: 155px;
+    background-color: #2f6bb4;
+    border: 2px solid #0c2034;
+}
+fieldset div textarea
+{
+    width: 155px;
+    height: 70px;
+    background-color: #0ce064;
+    border: 2px solid #005716;
+}
+fieldset div:nth-of-type(6) div:nth-of-type(2){
+    display: flex;
+    margin-bottom: 10px;
+}
+fieldset div:nth-of-type(7){
+   clear: both;
+    margin-bottom: 2px;
+}
+fieldset div:nth-of-type(8),fieldset div:nth-of-type(9){
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+}
+
+fieldset div:nth-of-type(10){
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+fieldset div:nth-of-type(10) input:first-child
+{
+    background-color: green;
+    margin-right: 5px;
+}
+fieldset div:nth-of-type(10) input:last-child
+{
+    background-color: red;
+}
