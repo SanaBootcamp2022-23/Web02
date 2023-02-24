@@ -1,0 +1,23 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline-block;
+    padding: 10px 15px;
+    border: #B0C7D8 solid 2px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 25px;
+}
+li a {
+    color: #877160;
+    text-decoration: none;
+}
+li:hover,
+li:hover a{
+    background: #607788;
+    color: white;
+    cursor: pointer;
+}
