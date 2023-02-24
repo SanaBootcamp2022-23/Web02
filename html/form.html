@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 3</title>
+    <link rel="stylesheet" href="../css/style-form.css">
+</head>
+<body>
+    <fieldset>
+        <form method="post">
+            <table>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" name="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="password2">Reenter password:</label></td>
+                    <td><input type="password" name="password2" id="password2"></td>
+                </tr>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" name="name" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="surname">Surname:</label></td>
+                    <td><input type="text" name="surname" id="surname"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td>
+                        <div>
+                            <label><input type="radio" name="gender" value="male">Male</label>
+                            <label><input type="radio" name="gender" value="female">Female</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="city">City:</label></td>
+                    <td>
+                        <div>
+                            <select name="city" id="city">
+                                <option selected value="Zhytomyr">Zhytomyr</option>
+                                <option value="Kyiv">Kyiv</option>
+                                <option value="Lviv">Lviv</option>
+                            </select>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="about_myself">About yourself:</label></td>
+                    <td>
+                        <div>
+                            <textarea name="about_myself" id="about_myself"></textarea>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Agreement</label>
+                    </td>
+                    <td>
+                        <div>
+                            <label><input type="checkbox" name="check">Get site mailings</label>
+                            <label><input type="checkbox" name="check">Agree with the rules</label>
+                            <label><input type="checkbox" name="check">Hide profile on site</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>
