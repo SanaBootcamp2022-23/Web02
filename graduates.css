@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: dimgrey;
+    font-style: italic;
+}
+.wrapper{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    height: 500px;
+}
+
+article{
+    display: flex;
+}
+img{
+    margin: 0 auto;
+    width: 160px;
+    height: 160px;
+}
+
+article>div:first-child{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgSign1, .imgSign2{
+    text-align: center;
+    margin-top: 15px;
+    width: 180px;
+}
+
+.alumni1,.alumni2{
+    margin-top: 20px;
+    font-size: 13px;
+    gap: 40px;
+}
+.alumni2{
+    margin-top: 50px;
+}
+.story{
+    position: relative;
+    font-size: 14px;
+    padding-top: 5px;
+    text-align: justify;
+    line-height: 18px;
+}
+
+.author_name_1,.author_name_2{
+    display: block;
+    text-align: end;
+    font-style: normal;
+}
+.story{
+    height: min-content;
+}
+.story:before,.story:after{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url("/images/quote.png");
+    content: '';
+}
+.story:before{
+    left: -40px;
+    top: -10px;
+}
+
+.story:after{
+    content: '';
+    right: -40px;
+    bottom: -7px;
+    transform: rotate(180deg);
+}
+
