@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form>
+
+        <!--Атрибут id застосований тільки для взаємодії label та полів-->
+        <label for="field_email">E-mail: </label>
+        <input type="text" id="field_email">
+        <label for="field_password">Password: </label>
+        <input type="password" id="field_password">
+        
+        <label for="field_r_password">Password: </label>
+        <input type="password" id="field_r_password">
+
+        <label for="field_name">Name: </label>
+        <input type="text" id="field_name">
+        <label for="field_surname">Surname: </label>
+        <input type="text" id="field_surname">
+
+        <label>Sex</label>
+        <div>
+            <input type="radio" id="m_sex" name="sex">
+            <label for="m_sex">man</label>
+            <input type="radio" id="w_sex" name="sex">
+            <label for="w_sex">woman</label>
+            <input type="radio" id="o_sex" name="sex">
+            <label for="o_sex">other</label>
+        </div>
+
+        <label for>City: </label>
+        <select name="city" id="select_city">
+            <option value="Zhytomir">Zhytomir</option>
+            <option value="Kyiv">Kyiv</option>
+            <option value="Odessa">Odessa</option>
+            <option value="Dnypro">Dnypro</option>
+        </select>
+
+        <label for="about_yourself">About yourself: </label>
+        <textarea name="about_yourself" id="about_yourself" cols="30" rows="10"></textarea>
+
+        <label for="agreegment">Agreegment: </label>
+        <div>
+            <div>
+                <input type="checkbox" id="opt1"c>
+                <label for="opt1">Receive site newslatter</label>
+            </div>
+            <div>
+                <input type="checkbox" id="opt2"c>
+                <label for="opt2">I agree with the rules of the site</label>
+            </div>
+            <div>
+                <input type="checkbox" id="opt3"c>
+                <label for="opt3">Hide profile on the site</label>
+            </div>
+        </diV>
+
+        <div>
+        </div>
+
+        <div>
+            <button>Register</button>
+            <button>Reset</button>
+        </div>
+
+
+    </form>
+</body>
+</html>
