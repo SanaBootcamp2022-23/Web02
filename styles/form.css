@@ -1,0 +1,18 @@
+form {
+    text-align: center;
+    width: 550px;
+}
+
+textarea {
+    height: 100px;
+    width: 300px;
+    resize: none;
+}
+
+td {
+    margin: 10px;
+    text-align: left;
+}
+
+
+

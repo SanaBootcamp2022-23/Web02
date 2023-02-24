@@ -1,0 +1,52 @@
+body {
+    margin: auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    gap: 50px;
+
+}
+.grid > div {
+    font-family: "Arial", serif;
+    margin: auto;
+}
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+blockquote {
+    position: relative;
+}
+
+blockquote:before {
+    position: absolute;
+    content: open-quote;
+    font-size: 4em;
+    margin-left: -0.6em;
+    margin-top: -0.4em;
+    color: gray;
+}
+
+blockquote:after {
+    position: absolute;
+    content: close-quote;
+    font-size: 4em;
+    bottom: 0;
+    right: 0;
+    margin-right: -0.6em;
+    margin-bottom: -0.8em;
+    color: gray;
+}
+.center {
+    text-align: center;
+}
+
+
+.blockquote-author {
+    text-align: right;
+}
+
