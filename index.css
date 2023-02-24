@@ -1,0 +1,28 @@
+ul
+{
+    display: flex;
+    margin-top: 65px;
+}
+
+li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    color: #877160;
+    padding: 16px;
+    border: 3px solid #B0C7D8;
+    border-radius: 5px;
+
+}
+
+a:hover
+{
+    background-color: #607788;
+    color: #fff;
+}
