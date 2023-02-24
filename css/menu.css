@@ -1,0 +1,18 @@
+.nav li {
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #877160;
+    border: 2px solid #B0C7D8;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.nav a:hover {
+    background-color: #607788;
+    color: #ffffff;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" type="text/css" href="../css/form.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <form action="#" method="post">
+        <label>E-mail: <input type="email" name="email" required></label><br>
+        <label>Пароль: <input type="password" name="password" required></label><br>
+        <label>Ще раз пароль: <input type="password" name="confirm-password" required></label><br>
+        <label>Імʼя: <input type="text" name="first-name" required></label><br>
+        <label>Прізвище: <input type="text" name="last-name" required></label><br>
+        <label>Стать: </label>
+        <label for="male"><input type="radio" id="male" name="gender" value="male" required>Чоловік</label>
+        <label for="female"><input type="radio" id="female" name="gender" value="female" required>Жінка</label>
+        <label>Місто</label>
+        <select name="city" required>
+            <option value="" disabled selected>Виберіть місто</option>
+            <option value="k">Київ</option>
+            <option value="zhy">Житомир</option>
+            <option value="zpo">Запоріжжя</option>
+            <option value="if">Івано-Франківськ</option>
+            <option value="kr">Кропивницький</option>
+            <option value="lg">Луганськ</option>
+            <option value="lt">Луцьк</option>
+            <option value="lv">Львів</option>
+            <option value="mk">Миколаїв</option>
+            <option value="od">Одеса</option>
+            <option value="pl">Полтава</option>
+            <option value="rv">Рівне</option>
+            <option value="smf">Сімферополь</option>
+            <option value="sm">Суми</option>
+            <option value="tp">Тернопіль</option>
+            <option value="uz">Ужгород</option>
+            <option value="kh">Харків</option>
+            <option value="ks">Херсон</option>
+            <option value="kml">Хмельницький</option>
+            <option value="ch">Черкаси</option>
+            <option value="chv">Чернівці</option>
+            <option value="chn">Чернігів</option>
+            <option value="oth">Інше...</option>
+        </select>
+        <label>Про себе: </label>
+        <textarea name="about-myself" rows="5"></textarea>
+        <label>Погодження: </label>
+        <input type="checkbox" name="newsletter" id="newsletter">
+        <label for="newsletter">Отримувати розсилку сайту</label>
+
+        <input type="checkbox" name="agree-to-rules" id="agree-to-rules" required>
+        <label for="agree-to-rules">Я згоден з правилами сайту</label>
+
+        <input type="checkbox" name="hide-profile" id="hide-profile">
+        <label for="hide-profile">Приховати профіль на сайті</label>
+        <input type="submit" value="Реєстрація">
+        <input type="reset" value="Скинути">
+    </form>
+</div>
+</body>
+</html>
