@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="form.css" rel="stylesheet">
+</head>
+<body>
+<div>
+    <form>
+        <div>
+            <label for="Email">Email:</label>
+            <input id="Email" type="email">
+        </div>
+
+        <div>
+            <label for="Password">Пароль:</label>
+            <input id="Password" type="password">
+        </div>
+
+        <div>
+            <label for="repeatPassword">Пароль ще раз:</label>
+            <input id="repeatPassword" type="password">
+        </div>
+        <div>
+            <label for="Name">Ім'я:</label>
+            <input id="Name" type="text">
+        </div>
+        <div>
+            <label for="MiddleName">Прізвище:</label>
+            <input id="MiddleName" type="text">
+        </div>
+        <div>
+            <label for="Sex">Стать:</label>
+            <input id="SexMan" checked name="select" type="radio" value="Чоловіча">
+            <label for="SexMan">Чоловіча</label>
+            <input id="SexWomen" name="select" type="radio" value="Жіноча">
+            <label for="SexWomen">Жіноча</label>
+        </div>
+        <div>
+            <label for="City">Місто:</label>
+            <select id="City">
+                <option>Житомир</option>
+                <option>Київ</option>
+                <option>Маріуполь</option>
+                <option>Харків</option>
+            </select>
+        </div>
+        <div>
+            <label for="aboutMyself">Про себе:</label>
+            <textarea cols="15" id="aboutMyself" rows="5"></textarea>
+        </div>
+        <div>
+            <label id="label">Погодження:</label>
+            <div>
+                <div>
+                    <input id="take" type="checkbox">
+                    <label for="take">Отримати розсилку сайту</label>
+                </div>
+                <div>
+                    <input id="agree" type="checkbox">
+                    <label for="agree">Погоджуюсь з правилами сайту</label>
+                </div>
+                <div>
+                    <input id="hide" type="checkbox">
+                    <label for="hide">Скрить профіль на сайті</label>
+                </div>
+            </div>
+        </div>
+        <div>
+            <input type="submit" value="Зареєструватися">
+            <input type="reset" value="Скинути">
+        </div>
+    </form>
+</div>
+</body>
+</html>

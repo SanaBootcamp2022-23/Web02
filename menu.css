@@ -1,0 +1,25 @@
+ul[class="nav"]{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+a[href="#"]{
+    text-decoration: none;
+    color: #877160;
+}
+
+ul[class="nav"] li:hover{
+    cursor: pointer;
+    background-color: #607788;
+
+}
+ul[class="nav"] li:hover a{
+    color: white;
+}
+ul[class="nav"]>li{
+    padding: 15px;
+    border: 2px solid #B0C7D8;
+    border-radius: 7px;
+}
+

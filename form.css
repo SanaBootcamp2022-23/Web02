@@ -1,0 +1,98 @@
+input {
+    margin: 5px;
+}
+
+label[for="Email"] {
+    margin-left: 66px;
+}
+
+label[for="Name"] {
+    margin-left: 76px;
+}
+
+label[for="MiddleName"] {
+    margin-left: 36px;
+}
+
+label[for="Password"] {
+    margin-left: 52px;
+}
+
+label[for="Email"], [for="Password"], [for="repeatPassword"], [for="Name"], [for="MiddleName"], [for="Sex"], [for="City"], [for="aboutMyself"], [for="agreeMain"] {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+label[for="Sex"] {
+    margin-left: 63px;
+}
+
+label[for="City"] {
+    margin-left: 64px;
+}
+
+select{
+    height: 20px;
+    width: 170px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+label[for="aboutMyself"] {
+    margin-left: 45px;
+    vertical-align: 40px;
+}
+textarea{
+    margin-left: 4px;
+    width: 163px;
+    background: #C5FFC5;
+    border-color: #367435;
+    border-width: 2px;
+    resize: none;
+}
+label+div {
+    position: relative;
+    left: 115px;
+    bottom: 20px;
+}
+
+input[type="email"],label[for="Name"]+input ,label[for="MiddleName"]+input{
+    background: #FEFFB3;
+    border-color: #ADB060;
+}
+input[type="password"],[type="password"]{
+    background:#F9C3E9 ;
+    border-color: #983B6D;
+}
+select {
+    background: #BD87FD;
+    border-color:#2A1F6B;
+    border-width: 2px;
+}
+
+input[type="submit"]{
+    background: #C5FFC5;
+    border-color: #367435;
+    border-width: 2px;
+    margin-left: 105px;
+}
+input[type="reset"]
+{
+    background:#F9C3E9 ;
+    border-color: #983B6D;
+    border-width: 2px;
+}
+form{
+    width: 400px;
+    background: #EEEEEB;
+    border: 2px solid grey;
+}
+
+form>div:nth-child(9)>label{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+}
+
