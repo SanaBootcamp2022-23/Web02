@@ -1,0 +1,77 @@
+/* Встановлюємо фоновий колір для сторінки */
+body {
+    background-color: #f4f4f4;
+}
+
+/* Встановлюємо стилі для форми */
+form {
+    margin: 0 auto; /* центруємо форму */
+    width: 50%; /* встановлюємо ширину форми */
+    padding: 20px; /* додаємо відступи до форми */
+    background-color: #fff; /* встановлюємо колір фону форми */
+    border: 1px solid #ccc; /* додаємо рамку до форми */
+    border-radius: 5px; /* додаємо закруглені кути до форми */
+}
+
+/* Встановлюємо стилі для текстових полів */
+input[type="email"], input[type="password"], input[type="text"] {
+    display: block; /* змінюємо тип відображення елементів на "блок" */
+    margin-bottom: 10px; /* додаємо відступи між елементами */
+    width: 50%; /* встановлюємо ширину елементів на повну ширину форми */
+    max-width: 100%;
+    padding: 10px; /* додаємо відступи внутрішньої частині елементів */
+    border-radius: 5px; /* додаємо закруглені кути */
+    background-color: yellow;
+}
+input[type="password"]{
+    background-color: #e900ff;
+    border-radius: 5px;
+    border-color: #4d1157;
+}
+
+/* Встановлюємо стилі для вибору міста */
+select#city {
+    display: block; /* змінюємо тип відображення елемента на "блок" */
+    margin-bottom: 10px; /* додаємо відступи між елементами */
+    width: 100%; /* встановлюємо ширину елемента на повну ширину форми */
+    padding: 10px; /* додаємо відступи внутрішньої частині елемента */
+    border-radius: 5px; /* додаємо закруглені кути */
+    border-color: #4d1157;
+    background-color: mediumpurple;
+}
+
+/* Встановлюємо стилі для текстового поля "Про себе" */
+textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 75%;
+    max-width: 100%; /* додаємо максимальну ширину, яка дорівнюватиме ширині форми */
+    padding: 10px;
+    background-color: #44c92e;
+    border-color: #2d7923;
+    border-radius: 5px;
+    height: 100px;
+}
+
+/* Встановлюємо стилі для міток */
+label {
+    font-weight: bold; /* встановлюємо жирний шрифт */
+}
+
+/* Встановлюємо стилі для радіокнопок */
+input[type="radio"] {
+    margin-right: 10px; /* додаємо відступи між елементами */
+}
+
+/* Встановлюємо стилі для списку */
+select
+{
+    display: block;
+margin-bottom: 10px;
+width: 100%;
+padding: 10px;
+border-radius: 5px;
+}
+button[type="submit"]{
+    border-color: #2d7923;
+}

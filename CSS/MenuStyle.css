@@ -1,0 +1,38 @@
+nav {
+    text-align: center;
+    background-color: white;
+    border: 2px solid #B0C7D8;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 50px auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 15px;
+}
+
+nav li a {
+    display: block;
+    padding: 10px 20px;
+    color: #877160;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav li a:hover {
+    background-color: #B0C7D8;
+}
+
+nav li.current a {
+    background-color: #B0C7D8;
+    color: white;
+}
