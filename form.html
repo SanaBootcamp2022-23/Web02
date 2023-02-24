@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        form {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: flex-end;
+            padding: 2px 30px 2px 5px;
+            background-color: #EEEEEE;
+            border: 2px solid grey;
+        }
+        div>label {
+            display: flex;
+            align-items: center;
+            margin: 4px;
+            font-weight:bold;
+        }
+        input[type="text"]
+        {
+            background-color:lightyellow;
+            width: 200px;
+            height: 25px;
+        }
+        input[type="email"]
+        {   background-color:lightyellow;
+            width: 200px;
+            height: 25px;
+        }
+        input[type="password"]
+        {
+            background-color:hotpink;
+            width: 200px;
+            height: 25px;
+            border: 2px solid purple;
+        }
+
+
+        select {
+            background-color:cornflowerblue;
+            width: 207px;
+            height: 30px;
+            border: 2px solid darkblue;
+        }
+        textarea {
+            width: 200px;
+            height: 100px;
+            background-color: greenyellow;
+            border: 2px solid darkgreen;
+        }
+
+        form > div {
+            display:flex;
+            align-items:center;
+        }
+
+        form>div>label>label{
+            width:200px;
+            margin:0;
+            font-weight: normal;
+        }
+        form>div>label>div>label{
+            font-weight: normal;
+        }
+        form>div:last-child{
+            display:flex;
+            justify-content: center;
+            margin: auto;
+            }
+
+      form>div>input[type="submit"]
+       {    margin-right: 5px;
+           background-color: lawngreen;
+       }
+        form>div>input[type="reset"]
+        {
+            background-color: indianred;
+        }
+    </style>
+</head><body>
+<form action="">
+    <div>
+        <label>
+            E-mail:
+            <input type="email">
+        </label>
+    </div>
+    <div>
+        <label>
+            Пароль:
+            <input type="password">
+        </label>
+    </div>
+    <div>
+        <label>
+            Повторите пароль:
+            <input type="password">
+        </label>
+    </div>
+    <div>
+        <label>
+            Имя:
+            <input type="text">
+        </label>
+    </div>
+    <div>
+        <label>
+            Фамилия:
+            <input type="text">
+        </label>
+    </div>
+    <div>
+        <label>
+            Пол:
+            <label>
+                <label>
+                    <input type="radio" name="gender" checked>
+                    мужской
+                </label>
+                <label >
+                    <input type="radio" name="gender">
+                    женский
+                </label>
+            </label>
+        </label>
+    </div>
+    <div>
+        <label>
+            Город:
+            <select>
+                <option disabled="disabled" selected="selected">Выберите город</option>
+                <option >Житомир</option>
+                <option >Київ</option>
+                <option >Інше місто</option>
+            </select>
+        </label>
+    </div>
+    <div>
+        <label>
+            О себе:
+            <textarea rows="8"></textarea>
+        </label>
+    </div>
+    <div>
+        <label>
+            Соглашения:
+            <div>
+                <label >
+                    <input type="checkbox">
+                   Получать рассылки сайта
+                </label>
+
+                <label >
+                    <input type="checkbox">
+                    Соглашаюсь с правилами сайта
+                </label>
+
+                <label >
+                    <input type="checkbox">
+                    Скрыть профиль на сайте
+                </label>
+            </div>
+        </label>
+    </div>
+    <div>
+        <input type="submit" value="Зарегистрироваться">
+        <input type="reset" value="Сброс">
+    </div>
+</form>
+</body>
+</html>
