@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+<form action="">
+    <label>
+        E-mail:
+        <input type="text">
+    </label>
+    <label>
+        Пароль:
+        <input type="Password">
+    </label>
+    <label>
+        Пароль ещё раз:
+        <input type="Password">
+    </label>
+    <label>
+        Имя:
+        <input type="text">
+    </label>
+    <label>
+        Фамилия:
+        <input type="text">
+    </label>
+    <div>
+        Пол:
+        <label>
+            <input type="radio" name="Sex" value="Male">
+            мужской
+        </label>
+        <label>
+            <input type="radio" name="Sex" value="Female">
+            женский
+        </label>
+    </div>
+    <label>
+        Город:
+        <select>
+            <option value="Zhytomyr">Житомир</option>
+            <option value="Kyiv">Киев</option>
+            <option value="Lutsk">Луцк</option>
+        </select>
+    </label>
+    <label>
+        О себе:
+        <textarea rows="10"></textarea>
+    </label>
+    <label>
+        Соглашения:
+        <div>
+            <label>
+                <input type="checkbox" name="News">
+                Получать рассылки с сайта
+            </label>
+            <label >
+                <input type="checkbox" name="Rules">
+                Соглашаюсь с правилами сайта
+            </label>
+            <label >
+                <input type="checkbox" name="HideProfile">
+                Скрыть профиль на сайте
+            </label>
+        </div>
+    </label>
+    <div>
+        <input type="button" value="Зарегистрироваться">
+        <input type="button" value="Сброс">
+    </div>
+</form>
+</body>
+</html>
