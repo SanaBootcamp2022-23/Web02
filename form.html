@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form.html</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+<form action="" method="post" class="main">
+    <div>
+    <label><p>E-mail:</label>
+    <input type="text" name="email" /></p>
+    </div>
+    <div>
+    <label><p>Пароль:</label>
+    <input type="password" name="password" /></p>
+    </div>
+    <div>
+    <label><p>Повторіть пароль:</label>
+    <input type="password" name="repeatPassword" /></p>
+    </div>
+    <div>
+    <label><p>Ім'я:</label>
+    <input type="text" name="name" /></p>
+    </div>
+    <div>
+    <label><p>Прізвище:</label>
+    <input type="text" name="surname" /></p>
+    </div>
+    <div>
+    <label name="sex"><p>Стать:</label>
+    <input type="radio" name="sex" id="male"/><label for="male" style=position:absolute;left:11%;>Чоловік</label>
+    <input type="radio" name="sex" id="female" style=position:absolute;left:15%;/><label for="female" style=position:absolute;left:17%;>Жінка</label></p>
+    </div>
+    <div>
+    <label><p>Місто:</label>
+    <select>
+        <option>Житомир</option>
+        <option>Київ</option>
+        <option>Львів</option>
+        <option>Дніпро</option>
+    </select></p>
+    </div>
+    <div>
+    <label><p>Про себе:</label>
+    <textarea></textarea></p>
+    </div>
+    <table>
+        <div>
+            <td>
+        <label  name="agreements"><p>Угоди</label></br>
+            </td>
+            <td>
+        <input type="checkbox" name="agreements" id="take"><label for="take" style=position:absolute;left:11%;>Отримувати розсилку сайту</label></p></br>
+        <input type="checkbox" name="agreements" id="agree"><label for="agree" style=position:absolute;left:11%;>Погоджуюсь з правилами сайту</label></p></br>
+        <input type="checkbox" name="agreements" id="hide"><label for="hide" style=position:absolute;left:11%;>Приховати профіль на сайті</label></p>
+            </td>
+        </div>
+    </table>
+    <div>
+        </br>
+    <p><button type="submit"><span>Зареєствувати</span></button>
+        <button type="cancel"><span>Скинути</span></button></p>
+    </div>
+</form>
+
+</body>
+</html>

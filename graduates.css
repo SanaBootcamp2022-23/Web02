@@ -1,0 +1,51 @@
+body{
+    margin: 30px;
+}
+.pictureOFs1mple,.pictureOFnafany{
+    display: inline-block;
+    height: 30vh;
+    width: 30vh;
+    border-radius: 600px;
+    background-size: cover;
+}
+
+.symbol{
+
+    font-size: 50px;
+    font-weight:bold;
+}
+.pictureOFs1mple{
+    margin-left: 6vw;
+    background-image: url(https://img-cdn.hltv.org/playerbodyshot/Q2u6AgnDNYQ3dyObwN4JBX.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=132%2C4%2C459%2C459&w=800&s=81da5699a06ed35ba865f7b628f99458);
+}
+.pictureOFnafany{
+    margin-left: 6vw;
+    background-image: url(https://img-cdn.hltv.org/playerbodyshot/FJVKuDaSDn54BKr7ldsV-o.png?bg=3e4c54&h=800&ixlib=java-2.1.0&rect=140%2C4%2C455%2C455&w=800&s=66cd2ce9865f05e726063f4902cbd853);
+}
+.text{
+    color : #877160;
+    margin-left: 10vw;
+    width: 35vw;
+    display: inline-block;
+}
+.text > p{
+    font-family: "Bookman Old Style";
+    display: inline-block;
+    padding-left: 18vw ;
+}
+.text~p{
+    font-family: "Bookman Old Style";
+    color : #877160;
+    margin-left: 7vw;
+    width: 200px;
+    text-align: center;
+}
+a{
+    font-family: "Bookman Old Style";
+    font-style: oblique;
+}
+.sign{
+    font-style: oblique;
+}
+
+

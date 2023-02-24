@@ -1,0 +1,66 @@
+form {
+    padding: 5px;
+    background-color: #EEEEEE;
+    border: 2px solid grey;
+    font-weight: 800;
+    width: 420px;
+    text-align: left;
+    font-family: "Arial Narrow";
+}
+input, textarea, select{
+    position:absolute;
+    left:9%;
+}
+
+/*
+div{
+    clear: both;
+    text-align: right;
+    line-height: 25px;
+    margin-right: 80px;
+}
+div.field {
+    padding-bottom: 5px;
+}
+div.field label {
+    display: block;
+    float: left;
+    width: 70px;
+    height: 15px;
+}
+*/
+button[type="submit"] {
+    background: greenyellow;
+}
+
+button[type="cancel"] {
+    background: crimson;
+}
+
+input[name="email"]{
+    background: khaki;
+
+}
+input[name="name"]{
+    background: khaki;
+}
+input[name="surname"] {
+    background: khaki;
+}
+input[name="password"]{
+    background: hotpink;
+
+}
+input[name="repeatPassword"]{
+    background: hotpink;
+}
+select{
+    background: mediumpurple;
+}
+textarea{
+    background: lightgreen;
+}
+
+
+
+
