@@ -1,0 +1,66 @@
+form{
+    display: grid;
+    align-self:center;
+    grid-template-columns: 1fr 2fr;
+    width: 400px;
+    margin: 5px;
+    background-color: lightgray;
+    border: 3px solid gray;
+}
+
+form>label{
+    text-align: right;
+    /* font-weight: bold; */
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+ form>input, select{
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 30px;
+ }
+
+input{
+    border: 3px solid #aeb265;
+    background-color: #feffb3;
+}
+
+input[type="password"]{
+    border: 3px solid #954e82;
+    background-color: #f8c3ea;
+}
+
+select{
+    border: 3px solid #443986;
+    background-color:#bdb8fa ;
+}
+
+textarea{
+    resize: none;
+    border: 3px solid #4a8c52;
+    background-color: #c5ffc5;
+    margin-right:  30px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+button{
+    background-color: #aef6a6;
+
+    border-style: outset;
+    border-color: #aef6a6;
+
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+button + button{
+    background-color: #ea909b;
+    border-color: #ea909b;
+
+}

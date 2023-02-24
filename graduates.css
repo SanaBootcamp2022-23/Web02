@@ -1,0 +1,13 @@
+.quote > div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.quote img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.quote img + p{
+    font-style:italic;
+}
