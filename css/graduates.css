@@ -1,0 +1,79 @@
+body {
+    width: 700px;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: 18px;
+}
+.title h1 {
+    font-size: 45px;
+    padding-left: 70px;
+}
+.title h1:before {
+    content: "";
+    width: 60px;
+    height:40px;
+    position: absolute;
+    background: url("../images/quote.png") no-repeat;
+    background-size: cover;
+    left: 20px;
+    top: 30px;
+}
+.post, h1 {
+    width: 665px;
+    margin: 40px 20px;
+}
+.post {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+h1 {
+    color: #0f1607;
+}
+img {
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    width: 170px;
+    height: 170px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.graduate {
+    width: 230px;
+}
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-style: italic;
+}
+.place {
+    text-align: center;
+}
+.name {
+    float: right;
+    margin-top: 10px;
+    font-style: normal;
+}
+.about {
+    margin-top: 20px;
+}
+.about::before,
+.name::after {
+    content: "";
+    width: 15px;
+    height: 11px;
+    position: absolute;
+    background: url("../images/quote.png") no-repeat;
+    background-size: cover;
+}
+.about::before {
+    top: 10px;
+    left: 300px;
+    transform: rotate(180deg);
+}
+.name::after {
+    right: -35px;
+}
