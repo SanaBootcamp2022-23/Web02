@@ -1,0 +1,83 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 5px;
+    padding-right: 35px;
+    background-color: #EEEEEE;
+    border: 2px solid grey;
+    font-weight: 800;
+    width: 400px;
+}
+label {
+    display: flex;
+    align-items: center;
+    margin: 2px 0;
+}
+label:last-of-type div {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+label:last-of-type div label {
+    margin: 1px 0;
+}
+input,
+textarea,
+select {
+    margin-left: 5px;
+}
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    width: 250px;
+    height: 20px;
+}
+textarea {
+    height: 100px;
+    background-color: #C5FFC5;
+    border: 3px solid #6BA96B;
+}
+select{
+    background-color: #BDB7FC;
+    border: 3px solid #6860AD;
+    height: 30px;
+    width: 260px;
+}
+input[type="text"] {
+    background-color: #FEFFB3;
+    border: 3px solid #C7CC7B;
+}
+input[type="password"] {
+    background-color: #FFBFE7;
+    border: 3px solid #BC739C;
+}
+form > div {
+    display: flex;
+    margin: auto;
+}
+form > label > label,
+form > label > div {
+    width: 260px;
+    margin: 0;
+    padding: 2px 6px;
+    font-weight: 500;
+}
+input[type="button"]{
+    font-weight: 600;
+    border: 0;
+    margin: 3px 5px;
+}
+form > div > input:first-of-type {
+    background-color: #C5FFC5;
+}
+form > div > input:last-of-type {
+    background-color: #E69CA1;
+}
+form > div > input:first-of-type:hover {
+    background-color: #25ec18;
+}
+form > div > input:last-of-type:hover {
+    background-color: #ef2c83;
+}
