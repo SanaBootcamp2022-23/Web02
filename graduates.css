@@ -1,13 +1,55 @@
-.quote > div{
+.quote {
+    width: 25%;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr;   
+    color: #565350;
+
+    row-gap: 40px;
+    column-gap: 40px;
+
+    line-height: 24px;
 }
 
 .quote img{
     object-fit: cover;
     border-radius: 50%;
+
+    height: 200px;
+    width: 200px;
 }
 
-.quote img + p{
-    font-style:italic;
+.quote_person{
+    width: 200px;
+    float:left;
+}
+
+.quoted_phrase{
+    width: 460px;
+    float:right;
+}
+
+.quote_person > p{
+    font-style: oblique;
+    text-align: center;
+}
+
+.quoted_phrase > div{
+    display: inline-block;
+    background-image: url(quotes.svg),url(back_quotes.svg);
+    background-size: 40px 40px;
+
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+}
+.quoted_phrase div>p:first-child{
+    margin: 24px 60px;
+    margin-bottom: 4px;
+    font-style: oblique;
+}
+
+.quoted_phrase div>p:nth-child(2){
+    float: right;
+    margin-top: 4px;
+    margin-bottom: 24px;
+    margin-right: 60px;
 }
