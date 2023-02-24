@@ -1,0 +1,58 @@
+.block {
+    display: grid;
+    grid-template-columns: 4fr 7fr;
+}
+
+.block .left div img {
+    border-radius: 50%;
+    width: 150px;
+    object-fit: cover;
+}
+.block .left div{
+    margin-bottom: 15px;
+}
+
+.left {
+    text-align: center
+}
+
+.block .left {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    padding: 0 20px;
+    text-align: end;
+}
+
+.text {
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+.textBlock {
+    position: relative;
+}
+
+.openS, .closeS {
+    color: rgba(0, 0, 0, 0.42);
+    font-size: 40px;
+}
+
+.openS {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.closeS {
+    position: absolute;
+    bottom: -45px;
+    right: 0;
+
+}
