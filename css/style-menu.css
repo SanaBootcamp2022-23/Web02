@@ -1,0 +1,23 @@
+ul{
+    list-style-type: none;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav>li{
+    margin: 20px 20px;
+    border: 2px solid #B0C7D8;
+    border-radius: 5px;
+}
+.nav>li>a{
+    display: block;
+    text-decoration: none;
+    color: #877160;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+.nav li a:hover{
+    background-color: #607788;
+    color: whitesmoke;
+}

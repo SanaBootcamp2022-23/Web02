@@ -1,0 +1,63 @@
+div[class="photo"]{
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin: 0px 50px;
+    border-radius: 50%;
+}
+div[class="header"]>div[class="photo"]{
+    background-image: url("../images/people.jpeg");
+}
+div[class="grad1"]>div[class="photo"]{
+    background-image: url("../images/kuryata.jpeg");
+}
+div[class="grad2"]>div[class="photo"]{
+     background-image: url("../images/serduk.jpeg");
+}
+h1{
+    position: absolute;
+    top: 45px;
+    left: 190px;
+    margin: 20px;
+}
+div[class="grad1"]{
+    margin: 50px 0px;
+}
+div[class="grad2"]{
+    margin: -200px 0px;
+}
+
+.text{
+    position: relative;
+    font-size: 14px;
+    margin: 0px 50px;
+
+}
+footer{
+    font-style: normal;
+    position: relative;
+    margin: 0px 270px;
+
+}
+blockquote::before{
+    content: "\201C";
+    height: 180px;
+    font-size: 50px;
+    color: grey;
+    float: left;
+    margin: 0px 20px;
+}
+blockquote::after{
+    content: "\201D";
+    font-size: 50px;
+    color: grey;
+    justify-content: right;
+    margin: 0px 400px;
+}
+blockquote{
+    position: relative;
+    left: 250px;
+    top: -220px;
+    font-style: italic;
+}
+

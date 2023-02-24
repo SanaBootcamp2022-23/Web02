@@ -1,0 +1,52 @@
+fieldset{
+    padding: 0px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 350px;
+    background-color: whitesmoke;
+    border-width: 4px;
+}
+table{
+    margin: 10px auto;
+}
+input {
+    background-color: yellow;
+    border: 2px solid rgb(220, 220, 69);
+}
+input[type="password"]{
+    background-color: rgba(205, 91, 169, 0.771);
+    border: 2px solid rgb(226, 20, 192);
+}
+input[type="text"],input[type="password"], input[type="email"] {
+    width: 96.5%;
+}
+select{
+    background-color: rgba(8, 93, 240, 0.771);
+    height: 20px;
+    border: 2px solid rgb(26, 5, 110);
+    width: 100%;
+}
+textarea{
+    background-color: rgba(84, 225, 98, 0.771);
+    height: 60px;
+    border: 2px solid rgb(6, 121, 16);
+}
+tr:nth-of-type(9)>td>div>label{
+    display: block;
+}
+button{
+    margin-top: 10px;
+}
+button[type="submit"]
+{
+    margin: 5px;
+    width: 100px;
+    background-color: rgba(84, 225, 98, 0.771);
+    border: 2px solid rgb(6, 121, 16);
+}
+button[type="reset"]
+{
+    width: 70px;
+    background-color: rgba(212, 51, 45, 0.771);
+    border: 2px solid rgb(120, 21, 8);
+}
