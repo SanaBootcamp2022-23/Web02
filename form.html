@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pract_web_02</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<div >
+    <label>
+E-mail
+<input type="email" name="email" required="required" >
+</label>
+    <label>
+Пароль
+<input type="password" name="password"  required="required">
+</label>
+    <label>
+        Повторіть введений пароль
+<input type="password" name="password2"  required="required">
+        </label>
+    <label>
+Ім'я
+<input type="name" name="name"  required="required">
+    </label>
+    <label>
+        Призвіще
+<input type="surname" name="surname"  required="required">
+    </label>
+    <label>
+        Стать
+    <input type="radio" name="male" value="Чоловіча">Чоловіча
+    <input type="radio" name="female" value="Жіноча"> Жіноча
+    </label>
+    <label>
+        Місто
+        <select name="city">
+            <option value="Kyiv">Київ</option>
+            <option value="Rivne">Рівне</option>
+            <option value="Sumy">Суми</option>
+            <option value="Odesa">Одеса</option>
+            <option value="Zhytomyr">Житомир</option>
+            <option value="Lviv">Львів</option>
+        </select>
+    </label>
+    <label>
+Про себе
+        <textarea name="about"></textarea>
+    </label>
+    <label>
+        Згода
+        <span>
+       <input type="checkbox" name="share" required="required" >  Отримувати розсилки сайту<br>
+
+         <input type="checkbox" name="rules" required="required" >Погоджуюсь з правилами сайту<br>
+
+        <input type="checkbox" name="hide">Приховати профіль на сайті<br>
+  <input type="reggister" value="Регістрація" name="reggister">
+                <input type="reset" value="Очистити" name="reset">
+        </span>
+    </label>
+</div>
+
+</body>
+</html>
