@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" href="styles/form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><b>E-mail:</b></td>
+                <td><input type = "text" name = "email" style = "background-color: #e0cc72; border-color: black;"/></td>
+            </tr>
+            <tr>
+                <td><b>Пароль:</b></td>
+                <td><input type = "password" name = "password" style = "background-color: #fa8ded; border-color: #black;"/></td>
+            </tr>
+            <tr>
+                <td><b>Пароль ще раз:</b></td>
+                <td><input type = "password" name = "repeat_password" style = "background-color: #fa8ded; border-color: #black" /></td>
+            </tr>
+            <tr>
+                <td> <b>Ім'я:</b></td>
+                <td><input type = "text" name = "first_name"style = "background-color: #e0cc72;
+    border-color: black;"/></td>
+            </tr>
+            <tr>
+                <td><b>Прізвище:</b></td>
+                <td><input type = "text" name = "last_name" style = "background-color: #e0cc72;
+    border-color: black;"/></td>
+            </tr>
+            <tr>
+                <td><b>Стать:</b></td>
+                <td><input type = "radio" name = "gender" value = "M">
+                    чоловіча
+                    <input type = "radio" name = "gender" value = "F"/>
+                    жіноча
+                </td>
+            </tr>
+            <tr>
+                <td><b>Місто:</b></td>
+                <td><select name = "city" style = "background-color: #6080a3;
+    border-color: blue; width: 165px">
+                        <option value="1">Житомир
+                        <option value="2">Львів
+                        <option value="3">Київ
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Про себе:</b></td>
+                <td><textarea name="about" style = "background-color: #a5ccb0; border-color: #0f5c24;"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Ви погоджуєтесь на:</b></td>
+                <td>
+                    <div><label><input type = "checkbox" name = "mailinglist" value="mailinglist"/>Отримувати розсилку сайту</label></div>
+                    <div><label><input type = "checkbox" name = "privacypolicy" value="privacypolice"/>Погоджуюсь з правилами сайту</label></div>
+                    <div><label><input type = "checkbox" name = "hideprofile" value="hideprofile"/>Приховати профіль на сайті</label></div>
+                </td>
+            </tr>
+        </table>
+        <input type ="submit" value="Зареєструватись" style = "background-color: #63bf74; border-color: #abb9db">
+        <input type ="reset" value="Скинути" style="background-color: #c96969; border-color: #abb9db">
+    </form>
+</body>
+</html>
