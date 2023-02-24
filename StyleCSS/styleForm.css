@@ -1,0 +1,100 @@
+body>div {
+    margin-top: 20vh;
+    margin-left: 37.5vw;
+    border: solid gray 3px;
+    background-color: rgb(223, 218, 218);
+    height: 60vh;
+    width: 25vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: right;
+    align-items: center;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-size: 1.1em;
+}
+
+b {
+    font-size: 1.2em;
+}
+
+
+[type="email"],
+[type="text"] {
+    background-color: #f0fac2;
+    border: solid 0.35vh #bdbb42;
+}
+
+[type="password"] {
+    background-color: #f3ade2;
+    border: solid 0.35vh #b43680;
+}
+
+input {
+    align-self: center;
+    height: 3vh;
+    margin: 0.4vw;
+    cursor: pointer;
+}
+
+body>div>:nth-child(12) {
+    display: flex;
+}
+
+body>div>:nth-child(12)>label {
+    margin-top: 0.8vh;
+    cursor: pointer;
+}
+body>div>:nth-child(18) {
+    display: grid;
+    grid-template-columns: 0fr 3fr;
+    font-size: 1.8ex;
+    text-align: left;
+}
+body>div>:nth-child(18)>input {
+    height: 1vh;
+    cursor: pointer;
+    width: 1vw;
+}
+
+body>div>:nth-child(18)>label {
+    margin-top: 0.456vh;
+}
+
+select {
+    cursor: pointer;
+    align-self: center;
+    height: 4vh;
+    margin: 0.4vw;
+    background-color: #7c8ce4;
+    border: solid 0.35vh #5136b4;
+}
+
+[name="text_ar"] {
+    max-width: 15.4vw;
+    min-width: 15.4vw;
+    margin-left: 0.4vw;
+    max-height: 9vh;
+    min-height: 4vh;
+    border: solid rgb(14, 70, 14) 0.2vw;
+    background-color: rgba(62, 240, 85, 0.47);
+}
+
+body>div>:nth-child(20) {
+    display: flex;
+}
+
+[type="button"] {
+    width: 14vh;
+    border: solid rgb(30, 236, 30) 0.3vmax;
+    background-color: rgba(29, 224, 39, 0.603);
+}
+
+[type="reset"] {
+    width: 7vh;
+    border: solid rgb(228, 18, 18) 0.3vmax;
+    background-color: rgb(221, 22, 22);
+}
