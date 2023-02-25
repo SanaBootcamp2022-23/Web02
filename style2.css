@@ -1,0 +1,30 @@
+.nav, .nav li{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    text-align: center;
+}
+
+.nav li{
+    text-align: center;
+    display: inline-block;
+}
+
+.nav a{
+    display: block;
+    padding: 5px 15px;
+    color: #877160;
+    font-size: 150%;
+    text-decoration: none;
+    margin-right: 5px;
+    background: white;
+    border: 3px solid #B0C7D8;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.nav a:hover{
+    background: #607788;
+    color: white;
+}
