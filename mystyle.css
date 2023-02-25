@@ -1,0 +1,78 @@
+th{
+    text-align: right;
+    line-height:30px;
+}
+input[type="password"]{
+    background: lightpink;
+    border: 3px solid purple;
+}
+input[type="text"]{
+    background: yellow;
+    border: 3px solid darkorange;
+}
+fieldset{
+    width: 400px;
+    height: 550px;
+    background: lightgrey;
+    border: 3px solid grey;
+    margin: 0 auto;
+}
+input[type="submit"]{
+    background: lightgreen;
+}
+input[type="reset"]{
+    background: lightcoral;
+}
+
+textarea{
+    background: limegreen;
+    border: 3px solid green;
+}
+
+select{
+    width: 100px;
+}
+input[type="text"],[type="password"] {
+    width: 300px;
+    height: 40px;
+}
+select{
+    background: dodgerblue;
+    border: 3px solid blue;
+    text-align: center;
+    font-size: 15px;
+    width: 300px;
+    height: 40px;
+}
+
+
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+}
+li {
+    display: inline-block;
+    padding: 20px;
+    border: 3px solid #B0C7D8;
+    border-radius: 10px;
+    width: 150px;
+    margin: 10px;
+}
+li a{
+    color: #877160;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #607788
+}
+li:hover a {
+    color: white;
+}
+
+

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Форма</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+<form action="" method="post">
+  <fieldset>
+    <table>
+      <tr>
+        <th><label>E-mail</label></th>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th><label>Пароль</label></th>
+        <td><input type="password"></td>
+      </tr>
+      <tr>
+        <th><label>Пароль ще раз</label></th>
+        <td><input type="password"></td>
+      </tr>
+      <tr>
+        <th><label>Ім'я</label></th>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th><label>Фамілія</label></th>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <th><label>Стать:</label>
+        </th>
+        <td>
+          <input type="radio" name= "gender" value="f"/>Жінка
+          <input type="radio" name= "gender" value="m"/>Чоловік
+        </td>
+      </tr>
+      <tr>
+        <th><label>Місто</label></th>
+        <td>
+          <select name="country">
+            <option value="1">Київ</option>
+            <option value="2" selected="selected">Житомир</option>
+            <option value="3" >Харків</option>
+            <option value="4" >Львів</option>
+            <option value="5" >Суми</option>
+            <option value="6" >Ужгород</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <th><label>Про себе:</label></th>
+        <td><textarea rows="5" cols="20"></textarea></td>
+      </tr>
+      <tr>
+        <th><label>Згода:</label></th>
+        <td>
+          <div>
+            <input type="checkbox" name= "gender" value="1"/>Отримувати повідомлення про новини
+          </div>
+          <div>
+            <input type="checkbox" name= "gender" value="2"/>Погоджуюсь з правилами сайту
+          </div>
+          <div>
+            <input type="checkbox" name= "gender" value="3"/>Сховати профіль на сайті
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th></th>
+        <td>
+          <div>
+            <input type="submit" value="Зареєструватися">
+            <input type="reset" value="Очистити">
+
+          </div>
+        </td>
+      </tr>
+
+
+    </table>
+  </fieldset>
+
+
+
+</form>
+</body>
+</html>
