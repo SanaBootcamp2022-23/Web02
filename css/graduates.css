@@ -1,0 +1,20 @@
+.graduates-container {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 300px 400px;
+    font-style: italic;
+}
+
+.graduates-photo{
+    width: 300px;
+    height: 300px;
+}
+
+.graduates-photo img{
+    border-radius: 50%;
+    max-height: 80%;
+    max-width: 80%;
+    display: block;
+    margin: 5px auto;
+}

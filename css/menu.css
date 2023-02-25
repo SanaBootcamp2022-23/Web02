@@ -1,0 +1,25 @@
+ul.nav li{
+    list-style: none;
+    border: solid 2px #B0C7D8;
+    border-radius: 5px;
+    height: 40px;
+    display: table;
+    float: left;
+    margin: 0 10px;
+}
+
+ul.nav li a{
+    text-decoration: none;
+    color: #877160;
+    display: table-cell;
+    margin: 0 10px;
+    vertical-align: middle;
+    padding: 0 5px;
+}
+
+ul.nav li a:hover{
+    background-color: #607788;
+    color: white;
+}
+
+

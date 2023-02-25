@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <th><label>E-mail:</label></th>
+            <th><input type="email" name="email" placeholder="exemple@mail.com"></th>
+        </tr>
+        <tr>
+            <th><label>Пароль:</label></th>
+            <th><input type="password" name="password" placeholder="******"></th>
+        </tr>
+        <tr>
+            <th><label>Пароль ще раз:</label></th>
+            <th><input type="password" name="password" placeholder="******"></th>
+        </tr>
+        <tr>
+            <th><label>Ім'я:</label></th>
+            <th><input type="text" name="firstname"></th>
+        </tr>
+        <tr>
+            <th><label>Фамілія:</label></th>
+            <th><input type="text" name="lastname"></th>
+        </tr>
+        <tr>
+            <th><label>Стать:</label></th>
+            <th>
+                <input type="radio" name="sex" value="male" checked>
+                <label>чоловіча</label>
+                <input type="radio" name="sex" value="female" >
+                <label>жіноча</label>
+            </th>
+        </tr>
+        <tr>
+            <th><label>Місто:</label></th>
+            <th>
+                <input list="city">
+                <datalist id="city">
+                    <option value="Житомир">
+                    <option value="Київ">
+                    <option value="Вінниця">
+                </datalist>
+            </th>
+        </tr>
+        <tr>
+            <th><label>Про себе:</label></th>
+            <th><input type="textarea" name="about"></th>
+        </tr>
+        <tr>
+            <th><label>Згода:</label></th>
+            <th>
+                <input type="checkbox" name="promises">
+                <label>Отримувати розсилку сайту</label></br>
+                <input type="checkbox" name="promises">
+                <label>Погодитись з правилами сайту</label></br>
+                <input type="checkbox" name="promises">
+                <label>Сховати профіль на сайту</label>
+            </th>
+        </tr>
+        <tr>
+            <th></th>
+            <th>
+                <input type="submit" value="Зареєструватись" name="confirm">
+                <input type="button" value="Скинути" name="reset">
+            </th>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

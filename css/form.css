@@ -1,0 +1,60 @@
+*{
+    font-weight: 400;
+}
+
+form {
+    width: 450px;
+    border: solid 2px gray;
+    background: lightgrey;
+    font-family: Arial;
+}
+
+input[type="text"],input[type="password"],
+input[type="email"], input[list="city"]{
+    width: 300px;
+    height: 30px;
+    background: lightyellow;
+    border: solid 2px yellow;
+}
+
+input[list="city"]>datalist{
+    text-align: end;
+}
+
+input[type="password"]{
+    width: 300px;
+    height: 30px;
+    background: indianred;
+    border: solid 2px red;
+}
+
+input[type="textarea"]{
+    width: 300px;
+    height: 100px;
+    background: lightgreen;
+    border: solid 2px green;
+}
+
+th:first-child label{
+    font-weight: bolder;
+}
+
+th:first-child {
+    text-align: end;
+}
+
+th:last-child{
+    text-align: start;
+}
+
+input[type="submit"]{
+    background-color: lightgreen;
+    color: green;
+    border: 0px;
+}
+
+input[type="button"]{
+    background-color: indianred;
+    color: darkred;
+    border: 0px;
+}
