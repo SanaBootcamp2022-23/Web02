@@ -1,0 +1,153 @@
+/*  form  */
+tr > td {
+    text-align: right;
+}
+
+fieldset {
+    width: 500px;
+    background-color: darkgrey;
+}
+
+td {
+    padding-bottom: 20px;
+}
+
+td + td {
+    text-align: left;
+}
+
+p {
+    margin: 0;
+    padding: 2px 2px;
+}
+
+input + input {
+    margin-left: 5px;
+}
+
+input[type="text"], input[type="email"] {
+    background-color: wheat;
+    border: solid #8f5948;
+    border-radius: 1px;
+    width: 250px;
+    height: 25px;
+}
+
+input[type="password"] {
+    background-color: #d14dcc;
+    border: solid #480a57;
+    border-radius: 1px;
+    width: 250px;
+    height: 25px;
+}
+
+td > select {
+    width: 260px;
+    height: 35px;
+    background-color: #602f7b;
+    border: solid #4b007b;
+    border-radius: 1px;
+}
+
+textarea {
+    background-color: chartreuse;
+    border: solid #003e10;
+    border-radius: 1px;
+    height: 150px;
+    width: 255px;
+}
+
+input[type="submit"] {
+    background-color: seagreen;
+    border-radius: 1px;
+}
+
+input[type="reset"] {
+    background-color: red;
+    border-radius: 1px;
+}
+/* form */
+
+
+/* menu */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 32px);
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+}
+li {
+    display: inline-block;
+    padding: 20px;
+    border: 3px solid #B0C7D8;
+    border-radius: 10px;
+    width: 150px;
+    margin: 10px;
+}
+a{
+    color: #877160;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+li:hover{
+    background-color: #607788;
+}
+
+li:hover a{
+    color: white;
+    background-color: #607788;
+}
+
+/* menu */
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+}
+
+.colums {
+    display: flex;
+    margin-top: 3vh;
+}
+
+.content-align {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.Profile-photo {
+    margin-right: 3vw
+}
+
+
+
+
+
+
+
+
+
