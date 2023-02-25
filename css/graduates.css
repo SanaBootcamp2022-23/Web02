@@ -1,0 +1,33 @@
+ .photo{
+    display: block;
+    text-align: center;
+    float: left;
+  }
+  img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  }
+  .desc{
+    font-style: italic;
+    line-height: 0.5;
+    margin-top: 20px;
+    line-height: 1;
+  }
+  .info{
+    font-style: italic;
+    margin-left: 250px;
+  }
+  cite {
+    position: absolute;
+    margin-left: 200px;
+  }
+  .clear {
+    clear: both; 
+    margin-top: 250px;
+  }
+  .column{
+    display: block; /* Размещение в один столбик */
+    width: 20%; /* Ширина столбика */
+  }
+ 

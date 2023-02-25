@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+}
+
+ul li {list-style: none;}
+a {text-decoration: none;}
+
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav {
+    gap: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li {
+    
+    border: 5px solid #b0c7d8;
+    padding: 8px;
+    border-radius: 8px;
+}
+.nav li:hover {    
+    background-color: #607788;
+}
+
+.nav li a {
+    color: #877160;
+}
+.nav li a:hover{
+    color: white;
+}

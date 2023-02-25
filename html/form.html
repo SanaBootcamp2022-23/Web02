@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/form.css">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    <form method="post">
+        <table>
+            <tr>
+                <td>
+                    <label for="Email">E-mail:</label>
+                </td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password">Password:</label>
+                </td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="password-again">Password again:</label>
+                </td>
+                <td><input type="password" name="password-again"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">First name:</label>
+                </td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="last-name">Last name:</label>
+                </td>
+                <td><input type="text" name="last-name"></td>
+            </tr>
+            <tr>
+                <td>
+                    Sex:
+                </td>
+                <td>
+                    <label>
+                        <input type="radio" name="sex" value="male">Male
+                    </label>
+                    <label>
+                        <input type="radio" name="sex" value="female">Female
+                    </label>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    City:
+                </td>
+                <td>
+                    <select name="city">
+                        <option>Житомир</option>
+                        <option>Київ</option>
+                        <option>Харків</option>
+                        <option>Чернігів</option>
+                        <option>Львів</option>
+                        <option>Вінниця</option>
+                        <option>Чернівці</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="about">About me:</label>
+                </td>
+                <td>
+                    <textarea name="about" id="about"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Agreement:
+                </td>
+                <td>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="agreement[]">Receive site newsletters
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="agreement[]">I agree with the rules of the site
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="agreement[]">Hide profile on the site
+                        </label>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</div>
+</body>
+</html>
