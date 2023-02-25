@@ -1,0 +1,20 @@
+ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 25px;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #877160;
+  border: 2px solid #b0c7d8;
+  border-radius: 5px;
+  padding: 15px;
+}
+a:hover {
+  background-color: #607788;
+  color: #ffffff;
+}
