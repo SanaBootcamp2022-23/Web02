@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/form.css">
+    <title>Form</title>
+</head>
+<body>
+  <form action="" method="post">
+    <label for="email">
+        E-mail:
+        <input type="email" id="email" autocomplete="off" placeholder="example@gmail.com" required >
+    </label>
+
+    <label>
+        Пароль:
+        <input type="password">
+    </label>
+
+    <label>
+        Пароль ещё раз:
+        <input type="password">
+    </label>
+
+    <label>
+        Имя:
+        <input type="text">
+    </label>
+
+    <label>
+        Фамилия:
+        <input type="text">
+    </label>
+
+    <div>
+      <label>Пол:</label>
+          <input checked type="radio" name="gender" value="male"/> мужской
+          <input type="radio" name="gender" value="female"/> женский
+    </div>
+
+    <label>
+        Город:
+        <select>
+            <option value="Zhytomyr">Житомир</option>
+            <option value="Kyiv">Киев</option>
+            <option value="Kharkiv">Харьков</option>
+        </select>
+    </label>
+
+    <label>
+        О себе:
+        <textarea rows="10"></textarea>
+    </label>
+
+    <label>
+        Соглашения:
+        <div>
+            <label>
+                <input type="checkbox" name="News">
+                Получать рассылки с сайта
+            </label>
+            <label >
+                <input type="checkbox" name="Rules">
+                Соглашаюсь с правилами сайта
+            </label>
+            <label >
+                <input type="checkbox" name="HideProfile">
+                Скрыть профиль на сайте
+            </label>
+        </div>
+    </label>
+
+    <div>
+        <button tabindex="11" type="submit">Зарегистрироваться</button>
+        <button tabindex="10" type="reset">Сброс</button>
+    </div>
+    
+</form>
+</body>
+</html>
