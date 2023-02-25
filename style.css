@@ -1,0 +1,32 @@
+body{
+    font-family: Tahoma;
+}
+
+form{
+    margin: 0 auto;
+    background-color: lightgray;
+    width: 450px;
+    height: 460px;
+    padding: 20px;
+    border: 3px solid grey;
+}
+
+label{
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+input{
+    margin-top: 5px;
+}
+
+button{
+    font-weight: bold;
+}
+
+textarea{
+    height: 60px;
+    width: 250px;
+    resize: none;
+}

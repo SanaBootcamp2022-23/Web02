@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+<form action="">
+    <center><h1 title="Форма регстрации">Регистрация</h1></center>
+    <table>
+        <tbody>
+        <tr>
+            <td align="right" style="font-weight: bold">Email</td>
+            <td><input type="text" style="border: 3px solid darkgoldenrod; background-color: yellow; width: 250px"></td>
+        </tr>
+        <tr>
+            <td align="right" style="font-weight: bold">Пароль</td>
+            <td><input type="password" style="border: 3px solid darkviolet; background-color: pink; width: 250px"></td>
+        </tr>
+        <tr>
+            <td align="right" style="font-weight: bold">Пароль еще раз</td>
+            <td><input type="password" style="border: 3px solid darkviolet; background-color: pink; width: 250px"></td>
+        </tr>
+        <tr>
+            <td align="right" style="font-weight: bold">Имя</td>
+            <td><input type="text" style="border: 3px solid darkgoldenrod; background-color: yellow; width: 250px"></td>
+        </tr>
+        <tr>
+            <td align="right" style="font-weight: bold">Фамилия</td>
+            <td><input type="text" style="border: 3px solid darkgoldenrod; background-color: yellow; width: 250px"></td>
+        </tr>
+        <tr>
+            <td align="right" style="font-weight: bold">Пол</td>
+            <td><input type="radio" name="sex" value="male">мужской<input type="radio" name="sex" value="female">женский</td>
+        </tr>
+        <tr>
+            <td align="right" style="font-weight: bold">Город</td>
+            <td>
+                <select style="border: 3px solid blue; background-color: lightblue">
+                <option value="1">Житомир</option>
+                <option value="2">Киев</option>
+                <option value="3">Ровно</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td rowspan="3"><textarea style="border: 3px solid green; background-color: greenyellow"></textarea></td>
+        </tr>
+        <tr>
+            <td align="right" style="font-weight: bold">О себе</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td><input type="checkbox" name="1">Получать рассылки сайта</td>
+        </tr>
+        <tr>
+            <td align="right" style="font-weight: bold">Соглашения</td>
+            <td><input type="checkbox" name="1">Соглашаюсь с правилами сайта</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td><input type="checkbox" name="1">Скрыть профиль на сайте</td>
+        </tr>
+        </tbody>
+    </table>
+    <center><button type="submit" style="background-color: greenyellow; box-shadow: 2px 2px 2px rgba(0,0,0,0.82)">Зарегистироваться</button>
+    <button type="reset" style="background-color: indianred; box-shadow: 2px 2px 2px rgba(0,0,0,0.82)">Сброс</button></center>
+</form>
+</body>
+</html>
