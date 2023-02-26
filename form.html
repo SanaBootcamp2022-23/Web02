@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/form-style.css">
+    <title>Title</title>
+</head>
+<body>
+<form class="registration">
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" required>
+
+    <label for="password">Пароль:</label>
+    <input type="password" id="password" name="password" required>
+
+    <label for="repeatpass">Повторіть пароль:</label>
+    <input type="password" id="repeatpass" name="repeatpass" required>
+
+    <label for="FirstName">Ім'я:</label>
+    <input type="text" id="FirstName" name="FirstName" required>
+
+    <label for="LastName">Прізвище:</label>
+    <input type="text" id="LastName" name="LastName" required>
+
+    <label>Стать:</label>
+    <div>
+        <input type="radio" id="Male" name="Gender" required>
+        <label for="Male">Чоловік</label>
+        <input type="radio" id="Female" name="Gender" required>
+        <label for="Female">Жінка</label>
+    </div>
+    <label for="city">Місто:</label>
+    <select name="city" id="city" required>
+        <option value="Житомир">Житомир</option>
+        <option value="Київ">Київ</option>
+        <option value="Донецьк">Донецьк</option>
+        <option value="Харків">Харків</option>
+    </select>
+    <label for="AboutMe">Про себе:</label>
+    <textarea name="AboutMe" id="AboutMe" cols="25" rows="5"></textarea>
+
+    <label></label>
+    <div>
+        <input type="submit" value="Зареєструватися">
+        <input type="reset" value="Скинути">
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul.nav {
+  margin: 100px auto;
+  width: max-content;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  list-style-type: none;
+  gap: 50px;
+}
+ul.nav li {
+  padding: 10px;
+  border: 1px solid #B0C7D8;
+  border-radius: 5px;
+}
+ul.nav li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #877160;
+}
+ul.nav li:hover {
+  background-color: #607788;
+}
+
+/*# sourceMappingURL=menu-style.css.map */

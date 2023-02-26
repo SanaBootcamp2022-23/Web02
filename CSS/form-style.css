@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+form.registration {
+  font-family: sans-serif;
+  border: 1px solid black;
+  width: max-content;
+  margin: 100px auto;
+  padding: 5px 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+}
+form.registration input {
+  padding: 5px;
+}
+form.registration input[type=text] {
+  background-color: rgba(255, 207, 67, 0.3);
+  border: 2px solid #ffcf43;
+}
+form.registration input[type=password] {
+  background-color: rgba(246, 15, 234, 0.3);
+  border: 2px solid #f60fea;
+}
+form.registration div > label {
+  font-weight: normal;
+  margin: 0;
+}
+form.registration textarea {
+  resize: none;
+  background-color: rgba(63, 255, 0, 0.3);
+  border: 2px solid #3fff00;
+}
+form.registration label {
+  width: max-content;
+  font-weight: bold;
+  margin: auto 0 auto auto;
+}
+form.registration input[type=submit] {
+  background-color: rgba(0, 128, 0, 0.3);
+  border: none;
+}
+form.registration input[type=reset] {
+  background-color: rgba(183, 38, 38, 0.3);
+  border: none;
+}
+form.registration select {
+  background-color: rgba(76, 0, 100, 0.3);
+  border: 2px solid #4c0064;
+}
+
+/*# sourceMappingURL=form-graduates-style.css.map */

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.graduates {
+  font: italic 14px sans-serif;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  gap: 50px;
+  box-sizing: content-box;
+}
+div.graduates figure {
+  text-align: center;
+}
+div.graduates figure img {
+  margin: 10px;
+  border-radius: 50%;
+}
+
+div.graduates > div {
+  display: grid;
+  height: max-content;
+}
+div.graduates > div p:first-child {
+  padding: 0 40px;
+  font-size: 16px;
+}
+div.graduates > div p:last-child {
+  text-align: end;
+  padding: 0 40px;
+  font-size: 16px;
+}
+
+div.graduates > div::before {
+  content: "";
+  width: 20px; /* половина ширини зображення */
+  height: 20px;
+  margin-right: 0;
+  background-image: url("img/quote.png");
+  background-position: 0 0; /* відображаємо ліву половину */
+}
+
+div.graduates > div::after {
+  content: "";
+  display: inline-block;
+  width: 20px; /* половина ширини зображення */
+  height: 20px;
+  margin-left: auto;
+  background-image: url("img/quote.png");
+  background-position: 20px 0; /* відображаємо ліву половину */
+}
+
+@media screen and (max-width: 500px) {
+  div.graduates {
+    grid-template-columns: auto;
+  }
+}
+@media screen and (min-width: 1000px) {
+  div.graduates {
+    width: 1000px;
+  }
+}
+
+/*# sourceMappingURL=graduates-style.css.map */
