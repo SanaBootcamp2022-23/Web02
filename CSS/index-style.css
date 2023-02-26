@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ol {
+  margin: 50px auto;
+  border: 1px solid black;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style-type: none;
+  gap: 50px;
+  justify-content: center;
+}
+ol li {
+  width: max-content;
+  margin: auto;
+  padding: 10px;
+  border: 1px solid #B0C7D8;
+  border-radius: 5px;
+}
+ol li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #877160;
+}
+ol li:hover {
+  background-color: #607788;
+}
+
+@media screen and (max-width: 550px) {
+  ol {
+    grid-template-columns: auto;
+  }
+}
+
+/*# sourceMappingURL=index-style.css.map */
