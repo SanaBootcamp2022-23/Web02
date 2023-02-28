@@ -15,15 +15,18 @@
 <body>
 <div>
     <form action="#" method="post">
-        <label>E-mail: <input type="email" name="email" required></label><br>
-        <label>Пароль: <input type="password" name="password" required></label><br>
-        <label>Ще раз пароль: <input type="password" name="confirm-password" required></label><br>
-        <label>Імʼя: <input type="text" name="first-name" required></label><br>
-        <label>Прізвище: <input type="text" name="last-name" required></label><br>
-        <label>Стать: </label>
-        <label for="male"><input type="radio" id="male" name="gender" value="male" required>Чоловік</label>
-        <label for="female"><input type="radio" id="female" name="gender" value="female" required>Жінка</label>
-        <label>Місто</label>
+        <label>E-mail: <input type="email" name="email" required></label>
+        <label>Пароль: <input type="password" name="password" required></label>
+        <label>Ще раз пароль: <input type="password" name="confirm-password" required></label>
+        <label>Імʼя: <input type="text" name="first-name" required></label>
+        <label>Прізвище: <input type="text" name="last-name" required></label>
+        <label>Стать: <label>
+            <input type="radio" name="male" value="Чоловіча">чоловік
+            <input type="radio" name="female" value="Жіноча">жінка
+            <pre>        </pre>
+            </label>
+        </label>
+        <label>Місто:
         <select name="city" required>
             <option value="" disabled selected>Виберіть місто</option>
             <option value="k">Київ</option>
@@ -50,19 +53,22 @@
             <option value="chn">Чернігів</option>
             <option value="oth">Інше...</option>
         </select>
-        <label>Про себе: </label>
+        </label>
+        <label>Про себе:
         <textarea name="about-myself" rows="5"></textarea>
-        <label>Погодження: </label>
-        <input type="checkbox" name="newsletter" id="newsletter">
-        <label for="newsletter">Отримувати розсилку сайту</label>
-
-        <input type="checkbox" name="agree-to-rules" id="agree-to-rules" required>
-        <label for="agree-to-rules">Я згоден з правилами сайту</label>
-
-        <input type="checkbox" name="hide-profile" id="hide-profile">
-        <label for="hide-profile">Приховати профіль на сайті</label>
-        <input type="submit" value="Реєстрація">
-        <input type="reset" value="Скинути">
+        </label>
+        <label>Погодження:
+            <span>
+                <input type="checkbox" name="newsletter" id="newsletter">Отримувати розсилку сайту
+                <br>
+                <input type="checkbox" name="agree-to-rules" id="agree-to-rules" required>Я згоден з правилами сайту
+                <br>
+                <input type="checkbox" name="hide-profile" id="hide-profile"> Приховати профіль на сайті
+                <br>
+                <input type="submit" value="Реєстрація">
+                <input type="reset" value="Скинути">
+            </span>
+        </label>
     </form>
 </div>
 </body>

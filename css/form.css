@@ -5,62 +5,49 @@ body {
 select {
     background-color: mediumpurple;
     border: 2px solid darkblue;
+    display: flex;
+    width: 200px;
+    height: 25px;
 }
 
 form {
     flex-direction: column;
     display: inline-flex;
-    align-items: center;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 4%;
+    align-items: flex-end;
+    margin-top: 1%;
     padding: 20px;
     background-color: antiquewhite;
     border: 2px solid silver;
-    grid-template-columns: auto 2fr;
-    grid-gap: 5px;
 }
 
 form label {
-    position: relative;
-    display: inline-flex;
+    margin: 2px 0;
+    display: flex;
     align-items: center;
     font-weight: bold;
     flex-basis: 30%;
 }
 
-
 form input,
-form textarea {
-    width: 80%;
+form textarea{
     padding: 10px;
     background-color: lightgreen;
     border: 2px solid green;
-    font-size: 16px;
 }
 form input[type="password"] {
     background-color: hotpink;
-    color: black;
     border: 2px solid purple;
-    cursor: pointer;
 }
 form input[type="text"],
 input[type="email"]{
-    width: 50%;
-    padding: 10px;
     background-color: yellow;
-    color: black;
     border: 2px solid burlywood;
-    font-size: 16px;
 }
 
 form input[type="submit"] {
-    padding: 10px;
+    width: 100px;
     background-color: green;
-    color: #fff;
     border: 2px solid grey;
-    font-size: 16px;
-    cursor: pointer;
 }
 
 form input[type="submit"]:hover {
@@ -68,12 +55,8 @@ form input[type="submit"]:hover {
 }
 
 form input[type="reset"] {
-    padding: 10px;
     background-color: indianred;
-    color: #fff;
     border: 2px solid grey;
-    font-size: 16px;
-    cursor: pointer;
 }
 
 form input[type="reset"]:hover {
