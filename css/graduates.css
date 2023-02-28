@@ -1,0 +1,84 @@
+.main{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.form{
+    text-align: left;
+    position: relative;
+}
+
+.form img, h1{
+    display: inline-block;
+}
+
+.form h1{
+    margin-top: -30px;
+    color: grey;
+    font-size: 30px;
+}
+
+.form img{
+    margin-left: 5px;
+    margin-bottom: -10px;
+}
+
+txt{
+    float: right;
+    width: 60%;
+    font-style: italic;
+    font-size: 20px;
+    color: grey;
+    font-family:Calibri;
+    margin-top: -20px;
+}
+
+txt>p{
+    width: 50%;
+    float: right;
+    font-style: normal;
+    font-size: 16px;
+    font-family: Calibri;
+}
+
+txt>p>span{
+    font-size: 50px;
+    color: lightgrey;
+    font-style: italic;
+    margin-left: 35%;
+}
+
+txt>span{
+    font-size:60px;
+    color: lightgrey;
+    font-style: italic;
+    margin-right: 10%;
+
+}
+
+.form{
+    width: 25%;
+    float:left;
+}
+
+.form p{
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    font-family: Calibri;
+    color: grey;
+    font-size: 14px;
+    margin-right: 60px;
+}
+.graduate{
+    margin-top: 400px;
+}
+
+.image{
+    width: 150px;
+    border-radius: 200px;
+    border: 7px solid white;
+    margin-top: 80px;
+}

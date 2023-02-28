@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+}
+
+select {
+    background-color: mediumpurple;
+    border: 2px solid darkblue;
+    display: flex;
+    width: 200px;
+    height: 25px;
+}
+
+form {
+    flex-direction: column;
+    display: inline-flex;
+    align-items: flex-end;
+    margin-top: 1%;
+    padding: 20px;
+    background-color: antiquewhite;
+    border: 2px solid silver;
+}
+
+form label {
+    margin: 2px 0;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    flex-basis: 30%;
+}
+
+form input,
+form textarea{
+    padding: 10px;
+    background-color: lightgreen;
+    border: 2px solid green;
+}
+form input[type="password"] {
+    background-color: hotpink;
+    border: 2px solid purple;
+}
+form input[type="text"],
+input[type="email"]{
+    background-color: yellow;
+    border: 2px solid burlywood;
+}
+
+form input[type="submit"] {
+    width: 100px;
+    background-color: green;
+    border: 2px solid grey;
+}
+
+form input[type="submit"]:hover {
+    background-color: darkgreen;
+}
+
+form input[type="reset"] {
+    background-color: indianred;
+    border: 2px solid grey;
+}
+
+form input[type="reset"]:hover {
+    background-color: darkred;
+}
