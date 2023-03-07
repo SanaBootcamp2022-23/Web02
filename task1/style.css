@@ -1,0 +1,51 @@
+fieldset{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top:50%;
+  transform: translate(0, -50%);
+}
+fieldset{
+  width: max-content;
+}
+input{
+
+}
+input[type="email"]{
+  background: greenyellow;
+  border: solid olive;
+  width: 95%;
+  height: 25px;
+}
+input[type="text"]{
+  background: greenyellow;
+  border: solid olive;
+  width: 95%;
+  height: 25px;
+}
+input[type="password"]{
+  background: lightpink;
+  border: solid mediumvioletred;
+  width: 95%;
+  height: 25px;
+}
+select{
+  background: mediumpurple;
+  border: solid indigo;
+  width: 40%;
+  height: 35px;
+}
+textarea{
+  background: lightgreen;
+  border: solid green;
+  resize: none;
+}
+td>button{
+  background: lawngreen;
+  border: solid 1px;
+}
+button + button{
+  background: tomato;
+  border: solid 1px;
+}
