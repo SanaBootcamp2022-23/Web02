@@ -1,0 +1,44 @@
+table {
+    border: solid 1px grey;
+    background-color: lightgray;
+    width: 410px;
+    height: 520px;
+}
+label {
+    font-weight: bold;
+    float: right;
+}
+input[type="password"] {
+    background: lightpink;
+    border: 2px solid purple;
+    height:25px;
+    width: 250px;
+}
+input[type="email"],
+input[type="text"] {
+    background: lightyellow;
+    border: 2px solid yellow;
+    height:25px;
+    width: 250px;
+}
+textarea {
+    width: 250px;
+    height: 120px;
+    background: lightgreen;
+    border: 2px solid green;
+    resize: none;
+}
+select {
+    background: #8470ff;
+    border: 2px solid darkslateblue;
+    height:33px;
+    width: 257px;
+}
+input[type="submit"] {
+    background: lightgreen;
+    border: solid 1px grey;
+}
+input[type="reset"] {
+    background: indianred;
+    border: solid 1px grey;
+}
