@@ -1,0 +1,35 @@
+tr td:first-child
+{
+    text-align: right;
+}
+fieldset
+{
+    width: 400px;
+}
+input[type=email], input[type=text]
+{
+    background-color: rgb(254 255 179);
+    border-width: 2px;
+    width: 240px;
+    height: 30px;
+}
+input[type=password]
+{
+    background-color: rgb(251 193 237);
+    border-width: 2px;
+    width: 240px;
+    height: 30px;
+}
+select
+{
+    background-color: rgb(189 183 250);
+    border-width: 2px;
+    width: 247px;
+    height: 30px;
+}
+textarea
+{
+    background-color: rgb(197 255 197);
+    border-width: 2px;
+    width: 240px;
+}
