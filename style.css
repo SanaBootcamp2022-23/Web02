@@ -1,0 +1,133 @@
+tr td:first-child
+{
+    text-align: right;
+}
+fieldset
+{
+    width: 400px;
+}
+input[type=email], input[type=text]
+{
+    background-color: rgb(254 255 179);
+    border-width: 2px;
+    width: 240px;
+    height: 30px;
+}
+input[type=password]
+{
+    background-color: rgb(251 193 237);
+    border-width: 2px;
+    width: 240px;
+    height: 30px;
+}
+select
+{
+    background-color: rgb(189 183 250);
+    border-width: 2px;
+    width: 247px;
+    height: 30px;
+}
+textarea
+{
+    background-color: rgb(197 255 197);
+    border-width: 2px;
+    width: 240px;
+}
+.nav
+{
+    padding: 0;
+}
+.nav a
+{
+    text-decoration: none;
+    border-width: 2px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 7px;
+    padding: 20px;
+}
+.nav li
+{
+    margin-top: 25px;
+    display: inline-block;
+    padding: 0px 20px 0px 50px;
+}
+.nav li a
+{
+    color: #877160;
+}
+.nav li:hover > a
+{
+    background-color: #607788;
+    color: white;
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+}
+.content {
+    text-align: center;
+    font-style: italic;
+}
+.graduates {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 50px;
+}
+.img_graduates img {
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: center;
+    max-width: 300px;
+}
+.right {
+    width: 650px;
+    padding: 0 40px 20px;
+    position: relative;
+}
+.quotes
+{
+    position: relative;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.quotes::before
+{
+    content: open-quote;
+    font-size: 40px;
+    color: grey;
+}
+.quotes::after {
+    text-align: right;
+    content: close-quote;
+    font-size: 40px;
+    color: grey;
+}
+.quotes p
+{
+    margin: 0;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+.author
+{
+    text-align: right;
+}
+.icon
+{
+    position: relative;
+    font-size: 30px;
+    left: 30px;
+}

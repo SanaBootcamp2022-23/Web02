@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <table>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="Email"></td>
+            </tr>
+            <tr>
+                <td><label>Пароль:</label></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><label>Повторіть пароль:</label></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td><label>Ім'я:</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label>Прізвище:</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label>Стать:</label></td>
+                <td>
+                    <input type="radio" id="m" name="st">чоловік
+                    <input type="radio" id="f" name="st">жінка
+                </td>
+            </tr>
+            <tr>
+                <td><label>Місто:</label></td>
+                <td><select>
+                    <option>Житомир</option>
+                    <option>Київ</option>
+                    <option>Одеса</option>
+                    <option>Харків</option>
+                    <option>Львів</option>
+                </select>
+            </tr>
+            <tr>
+                <td><label>Про себе:</label></td>
+                <td><textarea cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Погодження:</label></td>
+                <td><input type="checkbox" name="football" id="football">Отримувати новини сайту<br>
+                    <input type="checkbox" name="chess" id="chess">Погоджуюсь з правилами сайту<br>
+                    <input type="checkbox" name="art" id="art">Приховати профіль на сайті<br>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Зареєструватись">
+                    <input type="reset" value="Очистити">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>
