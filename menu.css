@@ -1,0 +1,22 @@
+.nav li {
+    list-style-type: none;
+    float: left;
+    padding: 15px;
+    border: 2px solid #b0c7d8;
+    border-radius: 3px;
+}
+
+* {
+    padding: 0;
+    margin: 5px;
+}
+
+.nav a {
+    text-decoration: white;
+    color: #877160;
+}
+
+li:hover a{
+    background: #607788;
+    color: white;
+}

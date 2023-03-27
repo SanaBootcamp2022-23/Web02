@@ -1,0 +1,38 @@
+table {
+    border: 2px solid grey;
+    font-family: sans-serif;
+}
+
+input[type="password"] {
+    background-color: #fab4f6;
+    border: 3px solid #b26db2;
+}
+
+input[type="text"] {
+    background-color: #fafa72;
+    border: 3px solid #abab40;
+}
+
+input[onselect],[name="cities"] {
+
+    background-color: #64aefc;
+    border: 3px solid #5c65ad;
+}
+
+textarea {
+    width: 150px;
+    height: 100px;
+    background-color: #b1ee95;
+    border: 3px solid #409140;
+
+}
+
+input[type="submit"] {
+    background-color: #b1ee95;
+    border-color: rgba(64,145,64,0);
+}
+
+input[type="reset"] {
+    background-color: #c4756f;
+    border-color: rgba(64,145,64,0);
+}

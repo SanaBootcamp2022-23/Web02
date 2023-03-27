@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td><b>E-mail:</b></td>
+            <td><input type="text" name="login" placeholder="admin"/></td>
+        </tr>
+        <tr>
+            <td><b>Password:</b></td>
+            <td><input type="password" name="password" placeholder="***"/></td>
+        </tr>
+        <tr>
+            <td><b>Password again:</b></td>
+            <td><input type="password" name="password" placeholder="***"/></td>
+        </tr>
+        <tr>
+            <td><b>Name:</b></td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td><b>Surname:</b></td>
+            <td><input type="text" name="surname"></td>
+        </tr>
+        <tr>
+            <td><b>Sex:</b></td>
+            <td><label>
+                <input type="radio" name="gender" value="male"/> Male
+            </label>
+            </td>
+            <td><label>
+                <input type="radio" name="gender" value="female"/> Female
+            </label>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Cities:</b></td>
+            <td><select name="cities">
+                <option value="1">Zhytomyr</option>
+                <option value="2">Kyiv</option>
+                <option value="3">Lviv</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td><b>About me:</b></td>
+            <td><textarea name="longtext"></textarea></td>
+        </tr>
+        <tr>
+            <td><b>Do you agree?:</b></td>
+            <td>
+                <div>
+                    <label>
+                        <input type="checkbox" name="agreement" value="1"/> Receive site newsletters
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" name="agreement" value="2"/> I agree with site rules
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" name="agreement" value="3"/> Hide profile on the site
+                    </label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <div>
+                    <input type="submit" value="Register"/>
+                    <input type="reset" value="Reset"/>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
