@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<form>
+    <fieldset>
+        <div>
+            <table>
+                <tr>
+                    <td>E-mail:</td>
+                    <td><input type="email" autocomplete="off" required></td>
+                </tr>
+                <tr>
+                    <td><label>Пароль:</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><label>Пароль ще раз:</label></td>
+                    <td><input type="password" oninput="check(this)"></td>
+                </tr>
+                <tr>
+                    <td><label>Ім'я:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Прізвище:</label></td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td><label>Стать:</label></td>
+                    <td><label><input type="radio"> Жінка </label>
+                        <label><input type="radio"> Чоловік </label></td>
+                </tr>
+                <tr>
+                    <td><label>Вкажіть місто:</label></td>
+                    <td><select>
+                        <option>Житомир</option>
+                        <option>Київ</option>
+                        <option>Одеса</option>
+                        <option>Харків</option>
+                        <option>Львів</option>
+                    </select>
+                </tr>
+                <tr>
+                    <td><label>Про себе:</label>
+                    <td>
+                        <textarea rows="5" cols="29"></textarea>
+                </tr>
+                <tr>
+                    <td><label>Погодження:</label></td>
+                    <td><input type="checkbox">Отримувати новини сайту<br>
+                        <input type="checkbox">Погоджуюсь з правилами сайту<br>
+                        <input type="checkbox">Приховати профіль на сайті
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="reset" value="Очистити">
+                        <input type="submit" value="Зареєструватись"></td>
+                </tr>
+            </table>
+        </div>
+    </fieldset>
+</form>
+</body>
+</html>

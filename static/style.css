@@ -1,0 +1,121 @@
+table {
+    width: 390px;
+    border-spacing: 4px;
+}
+
+fieldset {
+    border-radius: 4px;
+    border-width: 2px;
+    margin: 30px;
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+input[type="text"], input[type="email"] {
+    background-color: #feffb3;
+    border-width: 2px;
+    border-color: #c3c478;
+    width: 230px;
+    height: 30px;
+}
+
+input[type="password"] {
+    background-color: #fbc1ed;
+    width: 230px;
+    height: 30px;
+    border-width: 2px;
+    border-color: #89285d;
+}
+
+textarea {
+    background-color: #c5ffc5;
+    border-width: 2px;
+    border-color: #6fa472;
+}
+
+select {
+    background-color: #bdb7fb;
+    border-width: 2px;
+    border-color: #4a3f8b;
+    width: 240px;
+    height: 30px;
+}
+
+input[type="reset"] {
+    background-color: #adf4a3;
+    border-width: 2px;
+    border-color: #adf4a3;
+}
+
+input[type="submit"] {
+    background-color: #ed8b93;
+    border-width: 2px;
+    border-color: #ed8b93;
+}
+
+.nav {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    border-radius: 4px;
+    border: 3px solid #b0c7d8;
+    list-style-type: none;
+    padding: 15px 3px;
+    font-size: larger;
+    margin: 15px 15px;
+}
+
+li:hover {
+    background-color: #607788;
+}
+
+li a {
+    color: #877160;
+    text-decoration: none;
+    padding: 10px;
+}
+
+li a:hover {
+    color: white;
+}
+.container-all{
+    font-style: italic;
+    font-size: 16px;
+    color: rgba(5,5,5,0.59);
+    font-family: Arial, sans-serif;
+}
+.container-block {
+    max-width: 1000px;
+    margin: 3% 25%;
+    display: inline-block;
+}
+
+.container {
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.container-quotes {
+    width: 360px;
+    margin-left: 100px;
+}
+
+img{
+    width: 170px;
+    height: 170px;
+    border-radius: 100px;
+}
+.containernames {
+    width: 280px;
+    text-align: center;
+    font-style: italic;
+    padding-top: 0px;
+}
+p + p {
+    text-align: right;
+    font-style: normal;
+}
